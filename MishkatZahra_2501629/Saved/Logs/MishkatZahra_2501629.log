@@ -1093,3 +1093,706 @@ LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dum
 [2025.10.23-09.19.54:279][  0]LogMaterial: Display: Missing cached shadermap for DefaultLightFunctionMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 2d8d8c3a789c20665dd7acc3dca917c503db7ff5), compiling. 
 [2025.10.23-09.19.55:847][  0]LogTurnkeySupport: Completed device detection: Code = 0
 [2025.10.23-09.21.48:925][  0]LogDerivedDataCache: C:/Users/2501629/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.23-09.38.42:661][  0]LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 56, format PCD3D_SM6) compile time exceeded threshold (32.217s)
+[2025.10.23-09.39.07:716][  0]LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 53, format PCD3D_SM6) compile time exceeded threshold (53.114s)
+[2025.10.23-09.41.18:667][  0]LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 52, format PCD3D_SM6) compile time exceeded threshold (53.039s)
+[2025.10.23-09.41.18:668][  0]LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 57, format PCD3D_SM6) compile time exceeded threshold (30.245s)
+[2025.10.23-09.43.36:213][  0]LogMaterial: Display: Missing cached shadermap for DefaultPostProcessMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 9fd95837729a6af3ca8fa3dccfd50ec7b8a7b83a), compiling. 
+[2025.10.23-09.43.36:220][  0]LogTurnkeySupport: Turnkey Device: Win64@GPU11: (Name=GPU11, Type=Computer, Status=Valid, MinAllowed=10.0.19041.0, MaxAllowed=, Current=10.0.26100.0, Flags="Device_InstallSoftwareValid")
+[2025.10.23-09.43.39:783][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2025.10.23-09.43.39:783][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2025.10.23-09.43.39:783][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2025.10.23-09.43.39:783][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2025.10.23-09.43.39:783][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2025.10.23-09.43.39:818][  0]LogStaticMesh: Display: Building static mesh PlanarReflectionPlane (Required Memory Estimate: 2.920407 MB)...
+[2025.10.23-09.43.39:865][  0]LogStaticMesh: Built static mesh [0.05s] /Engine/EditorMeshes/PlanarReflectionPlane.PlanarReflectionPlane
+[2025.10.23-09.43.40:501][  0]LogStaticMesh: Display: Building static mesh MatineeCam_SM (Required Memory Estimate: 6.455061 MB)...
+[2025.10.23-09.43.40:536][  0]LogStaticMesh: Built static mesh [0.04s] /Engine/EditorMeshes/MatineeCam_SM.MatineeCam_SM
+[2025.10.23-09.43.40:746][  0]LogConfig: Branch 'PIEPreviewSettings' had been unloaded. Reloading on-demand took 1.87ms
+[2025.10.23-09.43.40:780][  0]LogConfig: Branch 'GameplayTagsList' had been unloaded. Reloading on-demand took 1.91ms
+[2025.10.23-09.43.40:808][  0]LogConfig: Branch 'TemplateDefs' had been unloaded. Reloading on-demand took 1.86ms
+[2025.10.23-09.43.40:813][  0]LogConfig: Branch 'TemplateCategories' had been unloaded. Reloading on-demand took 1.87ms
+[2025.10.23-09.43.40:894][  0]LogStaticMesh: Display: Building static mesh SM_CineCam (Required Memory Estimate: 8.902487 MB)...
+[2025.10.23-09.43.41:021][  0]LogStaticMesh: Built static mesh [0.13s] /Engine/EditorMeshes/Camera/SM_CineCam.SM_CineCam
+[2025.10.23-09.43.41:051][  0]LogStaticMesh: Display: Building static mesh EditorCube (Required Memory Estimate: 0.02689 MB)...
+[2025.10.23-09.43.41:052][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/EditorCube.EditorCube
+[2025.10.23-09.43.41:055][  0]LogStaticMesh: Display: Building static mesh EditorSphere (Required Memory Estimate: 6.269289 MB)...
+[2025.10.23-09.43.41:089][  0]LogStaticMesh: Built static mesh [0.03s] /Engine/EditorMeshes/EditorSphere.EditorSphere
+[2025.10.23-09.43.41:097][  0]LogStaticMesh: Display: Building static mesh EditorPlane (Required Memory Estimate: 0.05422 MB)...
+[2025.10.23-09.43.41:098][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/EditorPlane.EditorPlane
+[2025.10.23-09.43.41:101][  0]LogStaticMesh: Display: Building static mesh EditorCylinder (Required Memory Estimate: 0.714823 MB)...
+[2025.10.23-09.43.41:105][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/EditorCylinder.EditorCylinder
+[2025.10.23-09.43.41:127][  0]LogStaticMesh: Display: Building static mesh EditorSkySphere (Required Memory Estimate: 7.540967 MB)...
+[2025.10.23-09.43.41:155][  0]LogStaticMesh: Built static mesh [0.03s] /Engine/EditorMeshes/EditorSkySphere.EditorSkySphere
+[2025.10.23-09.43.41:311][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2025.10.23-09.43.41:311][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2025.10.23-09.43.41:318][  0]LogLiveCoding: Display: Starting LiveCoding
+[2025.10.23-09.43.41:318][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2025.10.23-09.43.41:320][  0]LogLiveCoding: Display: First instance in process group "UE_MishkatZahra_2501629_0xfa968e1f", spawning console
+[2025.10.23-09.43.41:332][  0]LogLiveCoding: Display: Waiting for server
+[2025.10.23-09.43.41:352][  0]LogSlate: Border
+[2025.10.23-09.43.41:352][  0]LogSlate: BreadcrumbButton
+[2025.10.23-09.43.41:352][  0]LogSlate: Brushes.Title
+[2025.10.23-09.43.41:352][  0]LogSlate: Default
+[2025.10.23-09.43.41:352][  0]LogSlate: Icons.Save
+[2025.10.23-09.43.41:352][  0]LogSlate: Icons.Toolbar.Settings
+[2025.10.23-09.43.41:352][  0]LogSlate: ListView
+[2025.10.23-09.43.41:352][  0]LogSlate: SoftwareCursor_CardinalCross
+[2025.10.23-09.43.41:352][  0]LogSlate: SoftwareCursor_Grab
+[2025.10.23-09.43.41:352][  0]LogSlate: TableView.DarkRow
+[2025.10.23-09.43.41:352][  0]LogSlate: TableView.Row
+[2025.10.23-09.43.41:352][  0]LogSlate: TreeView
+[2025.10.23-09.43.41:531][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2025.10.23-09.43.41:533][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 3.015 ms
+[2025.10.23-09.43.41:550][  0]LogConfig: Branch 'Mass' had been unloaded. Reloading on-demand took 1.88ms
+[2025.10.23-09.43.41:577][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2025.10.23-09.43.41:577][  0]LogInit: XR: MultiViewport is Disabled
+[2025.10.23-09.43.41:577][  0]LogInit: XR: Mobile Multiview is Disabled
+[2025.10.23-09.43.41:697][  0]LogConfig: Branch 'TranslationPickerSettings' had been unloaded. Reloading on-demand took 1.93ms
+[2025.10.23-09.43.41:803][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 80D30B09D800428A8000000000001200 | Instance: F2864E9E4D98659B901D7686BF631BA0 (GPU11-9628).
+[2025.10.23-09.43.42:267][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2025.10.23-09.43.42:274][  0]LogUdpMessaging: Display: Work queue size set to 1024.
+[2025.10.23-09.43.42:274][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2025.10.23-09.43.42:275][  0]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:49192'.
+[2025.10.23-09.43.42:282][  0]LogUdpMessaging: Display: Added local interface '172.30.7.11' to multicast group '230.0.0.1:6666'
+[2025.10.23-09.43.42:282][  0]LogUdpMessaging: Display: Added local interface '192.168.83.1' to multicast group '230.0.0.1:6666'
+[2025.10.23-09.43.42:282][  0]LogUdpMessaging: Display: Added local interface '192.168.189.1' to multicast group '230.0.0.1:6666'
+[2025.10.23-09.43.42:483][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2025.10.23-09.43.42:484][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2025.10.23-09.43.42:512][  0]LogMetaSound: MetaSound Engine Initialized
+[2025.10.23-09.43.42:880][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.10.23-09.43.42:880][  0]LogNNERuntimeORT: 0: NVIDIA GeForce RTX 3070 (Compute, Graphics)
+[2025.10.23-09.43.42:880][  0]LogNNERuntimeORT: 1: Microsoft Basic Render Driver (Compute, Graphics)
+[2025.10.23-09.43.42:880][  0]LogNNERuntimeORT: No NPU adapter found!
+[2025.10.23-09.43.43:058][  0]SourceControl: Revision control is disabled
+[2025.10.23-09.43.43:071][  0]SourceControl: Revision control is disabled
+[2025.10.23-09.43.43:128][  0]LogConfig: Branch 'ObjectMixerSerializedData' had been unloaded. Reloading on-demand took 1.91ms
+[2025.10.23-09.43.43:145][  0]LogConfig: Branch 'Crypto' had been unloaded. Reloading on-demand took 1.82ms
+[2025.10.23-09.43.43:543][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2025.10.23-09.43.43:569][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.10.23-09.43.43:569][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.10.23-09.43.43:666][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Interchange/Editor/Content/Old/Tiles/Outer/alertSolid.png' error.
+[2025.10.23-09.43.43:666][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Interchange/Editor/Content/Old/Tiles/Outer/alertSolid.png
+[2025.10.23-09.43.43:686][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/glf/resources/plugInfo.json'
+[2025.10.23-09.43.43:686][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hdStorm/resources/plugInfo.json'
+[2025.10.23-09.43.43:687][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/ndr/resources/plugInfo.json'
+[2025.10.23-09.43.43:688][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdImaging/resources/plugInfo.json'
+[2025.10.23-09.43.43:688][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usd/resources/plugInfo.json'
+[2025.10.23-09.43.43:689][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdRiPxrImaging/resources/plugInfo.json'
+[2025.10.23-09.43.43:690][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdPhysics/resources/plugInfo.json'
+[2025.10.23-09.43.43:690][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdSkelImaging/resources/plugInfo.json'
+[2025.10.23-09.43.43:691][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hd/resources/plugInfo.json'
+[2025.10.23-09.43.43:691][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hdx/resources/plugInfo.json'
+[2025.10.23-09.43.43:692][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/sdrGlslfx/resources/plugInfo.json'
+[2025.10.23-09.43.43:693][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdGeom/resources/plugInfo.json'
+[2025.10.23-09.43.43:694][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdLux/resources/plugInfo.json'
+[2025.10.23-09.43.43:694][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdProc/resources/plugInfo.json'
+[2025.10.23-09.43.43:695][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdRi/resources/plugInfo.json'
+[2025.10.23-09.43.43:695][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdSkel/resources/plugInfo.json'
+[2025.10.23-09.43.43:696][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdVolImaging/resources/plugInfo.json'
+[2025.10.23-09.43.43:696][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hdSt/resources/plugInfo.json'
+[2025.10.23-09.43.43:697][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hio/resources/plugInfo.json'
+[2025.10.23-09.43.43:698][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdHydra/resources/plugInfo.json'
+[2025.10.23-09.43.43:698][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdMedia/resources/plugInfo.json'
+[2025.10.23-09.43.43:698][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdProcImaging/resources/plugInfo.json'
+[2025.10.23-09.43.43:700][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdShade/resources/plugInfo.json'
+[2025.10.23-09.43.43:701][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdUI/resources/plugInfo.json'
+[2025.10.23-09.43.43:701][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hdGp/resources/plugInfo.json'
+[2025.10.23-09.43.43:701][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hgiGL/resources/plugInfo.json'
+[2025.10.23-09.43.43:701][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/ar/resources/plugInfo.json'
+[2025.10.23-09.43.43:702][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/sdf/resources/plugInfo.json'
+[2025.10.23-09.43.43:703][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdAbc/resources/plugInfo.json'
+[2025.10.23-09.43.43:703][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdImagingGL/resources/plugInfo.json'
+[2025.10.23-09.43.43:703][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdMtlx/resources/plugInfo.json'
+[2025.10.23-09.43.43:703][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdRender/resources/plugInfo.json'
+[2025.10.23-09.43.43:705][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdShaders/resources/plugInfo.json'
+[2025.10.23-09.43.43:707][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdVol/resources/plugInfo.json'
+[2025.10.23-09.43.43:707][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usd/resources/codegenTemplates/plugInfo.json'
+[2025.10.23-09.43.43:961][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2025.10.23-09.43.44:033][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2025.10.23-09.43.44:088][  0]LogCollectionManager: Loaded 0 collections in 0.001588 seconds
+[2025.10.23-09.43.44:091][  0]LogFileCache: Scanning file cache for directory 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/Collections/' took 0.00s
+[2025.10.23-09.43.44:094][  0]LogFileCache: Scanning file cache for directory 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/Developers/2501629/Collections/' took 0.00s
+[2025.10.23-09.43.44:097][  0]LogFileCache: Scanning file cache for directory 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/Collections/' took 0.00s
+[2025.10.23-09.43.44:194][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Developer/PlasticSourceControl/Resources/Icon128.png' error.
+[2025.10.23-09.43.44:194][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Developer/PlasticSourceControl/Resources/Icon128.png
+[2025.10.23-09.43.44:194][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2025.10.23-09.43.44:194][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png
+[2025.10.23-09.43.44:194][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2025.10.23-09.43.44:194][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png
+[2025.10.23-09.43.44:237][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Interchange/Editor/Content/Old/Tiles/Outer/alertSolid.png' error.
+[2025.10.23-09.43.44:237][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Interchange/Editor/Content/Old/Tiles/Outer/alertSolid.png
+[2025.10.23-09.43.44:263][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Version 1.17.0-39599718 booting at 2025-10-23T09:43:44.263Z using C
+[2025.10.23-09.43.44:263][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Platform Properties [OS=Windows/10.0.26100.4768.64bit, ClientId=xyza7891REBVsEqSJRRNXmlS7EQHM459, ProductId=86f32f1151354e7cb39c12f8ab2c22a3, SandboxId=a01927f7421a4d4995673fe30ef46945, DeploymentId=a652a72ea1664dcab3a467891eea5f30, ProductName=MishkatZahra_2501629, ProductVersion=++UE5+Release-5.5-CL-40574608, IsServer=false, Flags=DisableOverlay]
+[2025.10.23-09.43.44:264][  0]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.10.23-09.43.44:264][  0]LogEOSSDK: LogEOSOverlay: Overlay will not load, because it was explicitly disabled when creating the platform
+[2025.10.23-09.43.44:273][  0]LogEOSSDK: LogEOSAntiCheat: [AntiCheatClient] Anti-cheat client not available. Verify that the game was started using the anti-cheat bootstrapper if you intend to use it.
+[2025.10.23-09.43.44:274][  0]LogEOSSDK: LogEOS: SetApplicationStatus - OldStatus: EOS_AS_Foreground, NewStatus: EOS_AS_Foreground, Current Time: 0001.01.01-00.00.00
+[2025.10.23-09.43.44:274][  0]LogEOSSDK: LogEOS: SetNetworkStatus - OldStatus: EOS_NS_Online, NewStatus: EOS_NS_Online
+[2025.10.23-09.43.44:274][  0]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 0.000147
+[2025.10.23-09.43.44:274][  0]LogFab: Display: Logging in using persist
+[2025.10.23-09.43.44:275][  0]LogEOSSDK: Warning: LogEOSAuth: No existing persistent auth credentials were found for automatic login.
+[2025.10.23-09.43.44:316][  0]LogUObjectArray: 43612 objects as part of root set at end of initial load.
+[2025.10.23-09.43.44:316][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2025.10.23-09.43.44:331][  0]LogStreaming: Display: AsyncLoading2 - NotifyRegistrationComplete: Registered 36295 public script object entries (984.23 KB)
+[2025.10.23-09.43.44:331][  0]LogStreaming: Display: AsyncLoading2 - Thread Started: false, IsInitialLoad: false
+[2025.10.23-09.43.44:552][  0]LogEngine: Initializing Engine...
+[2025.10.23-09.43.44:556][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2025.10.23-09.43.44:557][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2025.10.23-09.43.44:691][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+[2025.10.23-09.43.44:719][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2025.10.23-09.43.44:738][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2025.10.23-09.43.44:738][  0]LogInit: Texture streaming: Enabled
+[2025.10.23-09.43.44:754][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data. AppVersion = 5.5.4-40574608+++UE5+Release-5.5
+[2025.10.23-09.43.44:765][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2025.10.23-09.43.44:780][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2025.10.23-09.43.44:780][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2025.10.23-09.43.44:781][  0]LogAudio: Display: Audio Device Manager Initialized
+[2025.10.23-09.43.44:781][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2025.10.23-09.43.44:781][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-09.43.44:781][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-09.43.44:781][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-09.43.44:781][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-09.43.44:781][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.10.23-09.43.44:781][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-09.43.44:781][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.10.23-09.43.44:781][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-09.43.44:781][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-09.43.44:781][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-09.43.44:781][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-09.43.44:789][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.23-09.43.45:874][  0]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2025.10.23-09.43.45:876][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-09.43.45:881][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-09.43.45:881][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-09.43.45:887][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.10.23-09.43.45:887][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.10.23-09.43.45:893][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.10.23-09.43.45:893][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2025.10.23-09.43.45:893][  0]LogInit: FAudioDevice initialized with ID 1.
+[2025.10.23-09.43.45:894][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2025.10.23-09.43.45:894][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2025.10.23-09.43.45:921][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2025.10.23-09.43.45:937][  0]LogInit: Undo buffer set to 256 MB
+[2025.10.23-09.43.45:937][  0]LogInit: Transaction tracking system initialized
+[2025.10.23-09.43.46:149][  0]LogConfig: Branch 'LocalizationServiceSettings' had been unloaded. Reloading on-demand took 2.10ms
+[2025.10.23-09.43.46:153][  0]LocalizationService: Localization service is disabled
+[2025.10.23-09.43.46:174][  0]LogTimingProfiler: Initialize
+[2025.10.23-09.43.46:174][  0]LogTimingProfiler: OnSessionChanged
+[2025.10.23-09.43.46:174][  0]LoadingProfiler: Initialize
+[2025.10.23-09.43.46:174][  0]LoadingProfiler: OnSessionChanged
+[2025.10.23-09.43.46:174][  0]LogNetworkingProfiler: Initialize
+[2025.10.23-09.43.46:174][  0]LogNetworkingProfiler: OnSessionChanged
+[2025.10.23-09.43.46:174][  0]LogMemoryProfiler: Initialize
+[2025.10.23-09.43.46:174][  0]LogMemoryProfiler: OnSessionChanged
+[2025.10.23-09.43.46:663][  0]LogFileCache: Scanning file cache for directory 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/' took 0.02s
+[2025.10.23-09.43.46:706][  0]LogPython: Using Python 3.11.8
+[2025.10.23-09.43.48:398][  0]LogPython: Display: No enabled plugins with python dependencies found, skipping
+[2025.10.23-09.43.48:433][  0]LogRenderer: Requested compilation of Path Tracing RTPSOs (1 permutations).
+[2025.10.23-09.43.48:461][  0]LogStreaming: Warning: Failed to read file 'Common/Selector.png' error.
+[2025.10.23-09.43.48:461][  0]LogSlate: Could not find file for Slate resource: Common/Selector.png
+[2025.10.23-09.43.48:637][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2025.10.23-09.43.48:666][  0]LogEditorDataStorage: Initializing
+[2025.10.23-09.43.48:669][  0]LogEditorDataStorage: Initialized
+[2025.10.23-09.43.48:699][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2025.10.23-09.43.48:708][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2025.10.23-09.43.48:714][  0]SourceControl: Revision control is disabled
+[2025.10.23-09.43.48:714][  0]LogUnrealEdMisc: Loading editor; pre map load, took 1444.311
+[2025.10.23-09.43.48:723][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/Unreal engine zip/UE_5.5/UE_5.5/FeaturePacks/StarterContent.upack)
+[2025.10.23-09.43.48:725][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2025.10.23-09.43.48:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2025.10.23-09.43.48:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2025.10.23-09.43.48:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2025.10.23-09.43.48:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2025.10.23-09.43.48:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2025.10.23-09.43.48:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2025.10.23-09.43.48:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2025.10.23-09.43.48:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2025.10.23-09.43.48:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2025.10.23-09.43.48:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2025.10.23-09.43.48:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2025.10.23-09.43.48:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Audio/Collapse01.uasset"
+[2025.10.23-09.43.48:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Audio/Collapse02.uasset"
+[2025.10.23-09.43.48:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2025.10.23-09.43.48:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2025.10.23-09.43.48:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Audio/Explosion01.uasset"
+[2025.10.23-09.43.48:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Audio/Explosion02.uasset"
+[2025.10.23-09.43.48:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2025.10.23-09.43.48:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2025.10.23-09.43.48:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2025.10.23-09.43.48:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Audio/Fire01.uasset"
+[2025.10.23-09.43.48:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2025.10.23-09.43.48:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2025.10.23-09.43.48:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2025.10.23-09.43.48:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2025.10.23-09.43.48:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2025.10.23-09.43.48:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2025.10.23-09.43.48:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2025.10.23-09.43.48:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Audio/Light01.uasset"
+[2025.10.23-09.43.48:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2025.10.23-09.43.48:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2025.10.23-09.43.48:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Audio/Light02.uasset"
+[2025.10.23-09.43.48:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2025.10.23-09.43.48:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Audio/Smoke01.uasset"
+[2025.10.23-09.43.48:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2025.10.23-09.43.48:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2025.10.23-09.43.48:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2025.10.23-09.43.48:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2025.10.23-09.43.48:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2025.10.23-09.43.48:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2025.10.23-09.43.48:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2025.10.23-09.43.48:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Audio/Steam01.uasset"
+[2025.10.23-09.43.48:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2025.10.23-09.43.48:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2025.10.23-09.43.48:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2025.10.23-09.43.48:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2025.10.23-09.43.48:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2025.10.23-09.43.48:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2025.10.23-09.43.48:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2025.10.23-09.43.48:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2025.10.23-09.43.48:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2025.10.23-09.43.48:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2025.10.23-09.43.48:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2025.10.23-09.43.48:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2025.10.23-09.43.48:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2025.10.23-09.43.48:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2025.10.23-09.43.48:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2025.10.23-09.43.48:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2025.10.23-09.43.48:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2025.10.23-09.43.48:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2025.10.23-09.43.48:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2025.10.23-09.43.48:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2025.10.23-09.43.48:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2025.10.23-09.43.48:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Maps/Minimal_Default.umap"
+[2025.10.23-09.43.48:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Glass.uasset"
+[2025.10.23-09.43.48:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2025.10.23-09.43.48:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2025.10.23-09.43.48:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2025.10.23-09.43.48:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Maps/StarterMap.umap"
+[2025.10.23-09.43.48:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2025.10.23-09.43.48:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2025.10.23-09.43.48:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2025.10.23-09.43.48:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2025.10.23-09.43.48:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2025.10.23-09.43.48:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2025.10.23-09.43.48:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2025.10.23-09.43.48:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2025.10.23-09.43.48:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2025.10.23-09.43.48:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2025.10.23-09.43.48:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2025.10.23-09.43.48:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2025.10.23-09.43.48:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2025.10.23-09.43.48:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2025.10.23-09.43.48:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2025.10.23-09.43.48:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2025.10.23-09.43.48:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2025.10.23-09.43.48:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2025.10.23-09.43.48:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2025.10.23-09.43.48:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2025.10.23-09.43.48:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2025.10.23-09.43.48:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2025.10.23-09.43.48:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2025.10.23-09.43.48:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2025.10.23-09.43.48:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2025.10.23-09.43.48:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Particles/P_Explosion.uasset"
+[2025.10.23-09.43.48:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Particles/P_Fire.uasset"
+[2025.10.23-09.43.48:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Particles/P_Smoke.uasset"
+[2025.10.23-09.43.48:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Particles/P_Sparks.uasset"
+[2025.10.23-09.43.48:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2025.10.23-09.43.48:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/MaterialSphere.uasset"
+[2025.10.23-09.43.48:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/SM_Bush.uasset"
+[2025.10.23-09.43.48:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/SM_Chair.uasset"
+[2025.10.23-09.43.48:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2025.10.23-09.43.48:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/SM_Couch.uasset"
+[2025.10.23-09.43.48:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/SM_Door.uasset"
+[2025.10.23-09.43.48:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2025.10.23-09.43.48:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2025.10.23-09.43.48:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2025.10.23-09.43.48:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2025.10.23-09.43.48:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2025.10.23-09.43.48:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2025.10.23-09.43.48:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/SM_Rock.uasset"
+[2025.10.23-09.43.48:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/SM_Shelf.uasset"
+[2025.10.23-09.43.48:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/SM_Stairs.uasset"
+[2025.10.23-09.43.48:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/SM_Statue.uasset"
+[2025.10.23-09.43.48:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/SM_TableRound.uasset"
+[2025.10.23-09.43.48:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2025.10.23-09.43.48:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2025.10.23-09.43.48:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2025.10.23-09.43.49:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2025.10.23-09.43.49:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2025.10.23-09.43.49:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2025.10.23-09.43.49:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2025.10.23-09.43.49:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2025.10.23-09.43.49:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2025.10.23-09.43.49:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2025.10.23-09.43.49:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2025.10.23-09.43.49:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2025.10.23-09.43.49:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2025.10.23-09.43.49:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2025.10.23-09.43.49:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2025.10.23-09.43.49:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2025.10.23-09.43.49:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2025.10.23-09.43.49:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2025.10.23-09.43.49:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2025.10.23-09.43.49:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2025.10.23-09.43.49:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2025.10.23-09.43.49:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2025.10.23-09.43.49:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2025.10.23-09.43.49:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2025.10.23-09.43.49:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2025.10.23-09.43.49:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2025.10.23-09.43.49:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2025.10.23-09.43.49:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2025.10.23-09.43.49:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2025.10.23-09.43.49:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2025.10.23-09.43.49:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2025.10.23-09.43.49:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2025.10.23-09.43.49:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2025.10.23-09.43.49:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2025.10.23-09.43.49:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2025.10.23-09.43.49:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2025.10.23-09.43.49:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2025.10.23-09.43.49:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2025.10.23-09.43.49:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2025.10.23-09.43.49:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2025.10.23-09.43.49:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2025.10.23-09.43.49:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2025.10.23-09.43.49:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2025.10.23-09.43.49:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2025.10.23-09.43.49:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2025.10.23-09.43.49:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2025.10.23-09.43.49:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2025.10.23-09.43.49:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2025.10.23-09.43.49:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2025.10.23-09.43.49:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2025.10.23-09.43.49:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2025.10.23-09.43.49:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2025.10.23-09.43.49:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2025.10.23-09.43.49:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2025.10.23-09.43.49:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2025.10.23-09.43.49:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2025.10.23-09.43.49:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2025.10.23-09.43.49:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2025.10.23-09.43.49:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2025.10.23-09.43.49:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Door_M.uasset"
+[2025.10.23-09.43.49:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Door_N.uasset"
+[2025.10.23-09.43.49:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2025.10.23-09.43.49:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2025.10.23-09.43.49:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2025.10.23-09.43.49:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2025.10.23-09.43.49:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2025.10.23-09.43.49:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2025.10.23-09.43.49:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2025.10.23-09.43.49:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2025.10.23-09.43.49:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2025.10.23-09.43.49:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2025.10.23-09.43.49:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2025.10.23-09.43.49:290][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2025.10.23-09.43.49:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2025.10.23-09.43.49:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2025.10.23-09.43.49:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2025.10.23-09.43.49:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2025.10.23-09.43.49:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2025.10.23-09.43.49:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2025.10.23-09.43.49:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2025.10.23-09.43.49:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2025.10.23-09.43.49:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2025.10.23-09.43.49:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2025.10.23-09.43.49:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2025.10.23-09.43.49:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2025.10.23-09.43.49:375][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2025.10.23-09.43.49:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2025.10.23-09.43.49:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2025.10.23-09.43.49:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2025.10.23-09.43.49:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2025.10.23-09.43.49:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2025.10.23-09.43.49:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2025.10.23-09.43.49:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2025.10.23-09.43.49:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2025.10.23-09.43.49:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2025.10.23-09.43.49:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2025.10.23-09.43.49:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2025.10.23-09.43.49:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2025.10.23-09.43.49:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2025.10.23-09.43.49:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2025.10.23-09.43.49:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2025.10.23-09.43.49:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2025.10.23-09.43.49:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2025.10.23-09.43.49:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2025.10.23-09.43.49:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2025.10.23-09.43.49:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2025.10.23-09.43.49:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2025.10.23-09.43.49:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2025.10.23-09.43.49:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2025.10.23-09.43.49:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2025.10.23-09.43.49:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2025.10.23-09.43.49:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2025.10.23-09.43.49:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Water_M.uasset"
+[2025.10.23-09.43.49:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Water_N.uasset"
+[2025.10.23-09.43.49:457][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2025.10.23-09.43.49:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2025.10.23-09.43.49:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2025.10.23-09.43.49:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2025.10.23-09.43.49:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2025.10.23-09.43.49:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2025.10.23-09.43.49:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2025.10.23-09.43.49:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2025.10.23-09.43.49:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2025.10.23-09.43.49:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2025.10.23-09.43.49:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2025.10.23-09.43.49:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2025.10.23-09.43.49:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2025.10.23-09.43.49:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2025.10.23-09.43.49:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2025.10.23-09.43.49:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2025.10.23-09.43.49:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2025.10.23-09.43.49:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2025.10.23-09.43.49:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2025.10.23-09.43.49:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2025.10.23-09.43.49:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2025.10.23-09.43.49:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2025.10.23-09.43.49:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2025.10.23-09.43.49:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2025.10.23-09.43.49:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2025.10.23-09.43.49:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2025.10.23-09.43.49:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2025.10.23-09.43.49:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2025.10.23-09.43.49:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2025.10.23-09.43.49:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2025.10.23-09.43.49:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2025.10.23-09.43.49:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2025.10.23-09.43.49:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2025.10.23-09.43.49:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2025.10.23-09.43.49:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2025.10.23-09.43.49:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2025.10.23-09.43.49:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2025.10.23-09.43.49:518][  0]LogStaticMesh: Display: Building static mesh Floor_400x400 (Required Memory Estimate: 0.026896 MB)...
+[2025.10.23-09.43.49:519][  0]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2025.10.23-09.43.49:525][  0]LogStaticMesh: Display: Building static mesh Floor_400x400 (Required Memory Estimate: 0.026896 MB)...
+[2025.10.23-09.43.49:526][  0]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2025.10.23-09.43.49:863][  0]LogAssetRegistry: Display: Asset registry cache written as 35.7 MiB to C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Intermediate/CachedAssetRegistry_*.bin
+[2025.10.23-09.43.50:996][  0]LogMeshUtilities: Finished distance field build in 1.4s - 49x49x49 sparse distance field, 0.2Mb total, 0.0Mb always loaded, 92% occupied, 4 triangles, EditorCube
+[2025.10.23-09.43.51:872][  0]LogMeshUtilities: Finished distance field build in 2.4s - 126x126x7 sparse distance field, 0.2Mb total, 0.0Mb always loaded, 100% occupied, 682 triangles, PlanarReflectionPlane
+[2025.10.23-09.43.52:502][  0]LogMeshUtilities: Finished distance field build in 2.9s - 63x63x63 sparse distance field, 0.4Mb total, 0.0Mb always loaded, 84% occupied, 1322 triangles, EditorSphere
+[2025.10.23-09.43.56:497][  0]LogMeshUtilities: Finished distance field build in 5.7s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 52% occupied, 1322 triangles, EditorSkySphere
+[2025.10.23-09.43.57:101][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-09.43.57:103][  0]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Architecture/Floor_400x400] ([1] browsable assets)...
+[2025.10.23-09.43.57:104][  0]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.10.23-09.43.57:118][  0]LogNNEDenoiser: ApplySettings: bDenoiserEnabled 1
+[2025.10.23-09.43.57:121][  0]LogNNEDenoiser: Loaded input mapping from NNEDIM_ColorAlbedoNormal_Alpha
+[2025.10.23-09.43.57:121][  0]LogNNEDenoiser: Loaded output mapping from NNEDOM_Output_Alpha
+[2025.10.23-09.43.57:121][  0]LogNNEDenoiser: Try create model instance with runtime NNERuntimeORTDml on RDG...
+[2025.10.23-09.43.57:199][  0]LogNNEDenoiser: Display: Created model instance with runtime NNERuntimeORTDml on RDG
+[2025.10.23-09.43.57:199][  0]LogNNEDenoiser: Create denoiser from asset /NNEDenoiser/NNED_Oidn2-3_Balanced_Alpha.NNED_Oidn2-3_Balanced_Alpha...
+[2025.10.23-09.43.57:201][  0]LogNNEDenoiser: Loaded input mapping from NNEDTIM_ColorAlbedoNormal_Alpha
+[2025.10.23-09.43.57:201][  0]LogNNEDenoiser: Loaded output mapping from NNEDTOM_Output_Alpha
+[2025.10.23-09.43.57:201][  0]LogNNEDenoiser: Try create model instance with runtime NNERuntimeORTDml on RDG...
+[2025.10.23-09.43.57:270][  0]LogNNEDenoiser: Display: Created model instance with runtime NNERuntimeORTDml on RDG
+[2025.10.23-09.43.57:272][  0]LogNNEDenoiser: Create temporal denoiser from asset /NNEDenoiser/NNEDT_Oidn2-3_Balanced_Alpha.NNEDT_Oidn2-3_Balanced_Alpha...
+[2025.10.23-09.43.57:939][  0]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400]
+[2025.10.23-09.43.57:940][  0]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Architecture/Floor_400x400]
+[2025.10.23-09.43.57:944][  0]LogSavePackage: Moving output files for package: /Game/StarterContent/Architecture/Floor_400x400
+[2025.10.23-09.43.57:946][  0]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/Floor_400x4008EADE68341A8C3A9AEE1F69DE2D5972E.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2025.10.23-09.43.57:947][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 846.383 ms
+[2025.10.23-09.43.57:947][  0]LogFeaturePack: Inserted 1 feature packs
+[2025.10.23-09.43.57:949][  0]Cmd: MAP LOAD FILE="C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/FirstPerson/Maps/FirstPersonMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.10.23-09.43.57:950][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-09.43.57:950][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-09.43.57:963][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.23-09.43.57:966][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.10.23-09.43.58:228][  0]LogTexture: Display: Building textures: /Game/FirstPersonArms/Character/Materials/Functions/CA_Mannequin.CA_Mannequin (RGBA16F, 64x64 x1x1x1) (Required Memory Estimate: 1.177074 MB), EncodeSpeed: Fast
+[2025.10.23-09.43.58:261][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'FirstPersonMap'.
+[2025.10.23-09.43.58:261][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.10.23-09.43.58:263][  0]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.10.23-09.43.58:263][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.23-09.43.58:263][  0]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.23-09.43.58:285][  0]LogStaticMesh: Display: Building static mesh SM_Cube (Required Memory Estimate: 0.026302 MB)...
+[2025.10.23-09.43.58:286][  0]LogStaticMesh: Display: Building static mesh SM_QuarterCylinder (Required Memory Estimate: 0.061604 MB)...
+[2025.10.23-09.43.58:288][  0]LogStaticMesh: Built static mesh [0.00s] /Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube
+[2025.10.23-09.43.58:291][  0]LogStaticMesh: Built static mesh [0.00s] /Game/LevelPrototyping/Meshes/SM_QuarterCylinder.SM_QuarterCylinder
+[2025.10.23-09.43.58:293][  0]LogStaticMesh: Display: Building static mesh SM_ChamferCube (Required Memory Estimate: 0.297096 MB)...
+[2025.10.23-09.43.58:298][  0]LogStaticMesh: Built static mesh [0.01s] /Game/LevelPrototyping/Meshes/SM_ChamferCube.SM_ChamferCube
+[2025.10.23-09.43.58:298][  0]LogStaticMesh: Display: Building static mesh SM_Ramp (Required Memory Estimate: 0.020414 MB)...
+[2025.10.23-09.43.58:301][  0]LogStaticMesh: Built static mesh [0.00s] /Game/LevelPrototyping/Meshes/SM_Ramp.SM_Ramp
+[2025.10.23-09.43.58:383][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.8.dll
+[2025.10.23-09.43.58:390][  0]LogStaticMesh: Display: Building static mesh FirstPersonProjectileMesh (Required Memory Estimate: 0.756426 MB)...
+[2025.10.23-09.43.58:395][  0]LogStaticMesh: Built static mesh [0.01s] /Game/FPWeapon/Mesh/FirstPersonProjectileMesh.FirstPersonProjectileMesh
+[2025.10.23-09.43.58:423][  0]LogWorldPartition: Display: WorldPartition initialize took 158.741 ms
+[2025.10.23-09.43.58:443][  0]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SK_FPGun) ...
+[2025.10.23-09.43.58:449][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.10.23-09.43.58:463][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.10.23-09.43.58:465][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.10.23-09.43.58:465][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.992ms to complete.
+[2025.10.23-09.43.58:476][  0]LogUnrealEdMisc: Total Editor Startup Time, took 1454.073
+[2025.10.23-09.43.58:477][  0]LogShaderCompilers: Display: ================================================
+[2025.10.23-09.43.58:477][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.23-09.43.58:477][  0]LogShaderCompilers: Display: Total job queries 11,495, among them cache hits 0 (0.00%), DDC hits 0 (0.00%), Duplicates 2,680 (23.31%)
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: Tracking 8,815 distinct input hashes that result in 8,331 distinct outputs (94.51%)
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: RAM used: 6.30 MiB of 1.60 GiB budget. Usage: 0.38%
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: Shaders Compiled: 8,807
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: Jobs assigned 8,810, completed 8,807 (99.97%)
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: Average time worker was idle: 0.07 s
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: Time job spent in pending queue: average 703.99 s, longest 1416.64 s
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: Job execution time: average 4.84 s, max 103.54 s
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: Job life time (pending + execution): average 709.06 s, max 1417.36
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: Shader code size: average 14.196 KiB, min 1.16 KiB, max 330.166 KiB
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1426.01 s
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.05%
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: Jobs were issued in 892 batches (only local compilation was used), average 9.88 jobs/batch
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: Average processing rate: 6.18 jobs/sec
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: Total thread time: 4,194.951 s
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: Total thread preprocess time: 106.553 s
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: Percentage time preprocessing: 2.54%
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: Effective parallelization: 2.94 (times faster than compiling all shaders on one thread). Compare with number of workers: 2
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 16.23 sec, max 53.11 sec, min 1.22 sec)
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 12.58 sec, max 12.58 sec, min 12.58 sec)
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 7.59 sec, max 8.45 sec, min 4.85 sec)
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 3.17 sec, max 6.12 sec, min 1.25 sec)
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.69 sec, max 5.87 sec, min 1.42 sec)
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display:                                             FDeferredLightPS - 13.40% of total time (compiled  454 times, average 1.24 sec, max 2.54 sec, min 0.93 sec)
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 11.12% of total time (compiled  260 times, average 1.79 sec, max 4.30 sec, min 0.00 sec)
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 10.44% of total time (compiled   27 times, average 16.23 sec, max 53.11 sec, min 1.22 sec)
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 6.21% of total time (compiled  480 times, average 0.54 sec, max 2.30 sec, min 0.26 sec)
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 4.13% of total time (compiled   72 times, average 2.41 sec, max 8.33 sec, min 1.70 sec)
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: === Material stats ===
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: Materials Translated:    135
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: Material Translation Only: 0.07 s (45%)
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.10.23-09.43.58:479][  0]LogShaderCompilers: Display: ================================================
+[2025.10.23-09.43.58:645][  0]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.10.23-09.43.58:751][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-09.43.58:841][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-09.43.58:928][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-09.43.59:013][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-09.43.59:099][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.23-09.43.59:099][  0]LogPakFile: Display: Mounted Pak file 'D:/Unreal engine zip/UE_5.5/UE_5.5/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2025.10.23-09.43.59:099][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.23-09.43.59:101][  0]LogPakFile: Display: Mounted Pak file 'D:/Unreal engine zip/UE_5.5/UE_5.5/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2025.10.23-09.43.59:101][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.23-09.43.59:101][  0]LogPakFile: Display: Mounted Pak file 'D:/Unreal engine zip/UE_5.5/UE_5.5/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2025.10.23-09.43.59:101][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.23-09.43.59:102][  0]LogPakFile: Display: Mounted Pak file 'D:/Unreal engine zip/UE_5.5/UE_5.5/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2025.10.23-09.43.59:102][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.23-09.43.59:102][  0]LogPakFile: Display: Mounted Pak file 'D:/Unreal engine zip/UE_5.5/UE_5.5/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2025.10.23-09.43.59:104][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.23-09.43.59:104][  0]LogPakFile: Display: Mounted Pak file 'D:/Unreal engine zip/UE_5.5/UE_5.5/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2025.10.23-09.43.59:104][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.23-09.43.59:104][  0]LogPakFile: Display: Mounted Pak file 'D:/Unreal engine zip/UE_5.5/UE_5.5/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2025.10.23-09.43.59:106][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.23-09.43.59:106][  0]LogPakFile: Display: Mounted Pak file 'D:/Unreal engine zip/UE_5.5/UE_5.5/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2025.10.23-09.43.59:106][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.23-09.43.59:106][  0]LogPakFile: Display: Mounted Pak file 'D:/Unreal engine zip/UE_5.5/UE_5.5/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2025.10.23-09.43.59:106][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.23-09.43.59:107][  0]LogPakFile: Display: Mounted Pak file 'D:/Unreal engine zip/UE_5.5/UE_5.5/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2025.10.23-09.43.59:278][  0]LogSlate: Took 0.000356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.10.23-09.43.59:283][  0]LogSlate: Took 0.000393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.10.23-09.43.59:283][  0]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.10.23-09.44.00:515][  0]LogD3D12RHI: Creating RTPSO with 21 shaders (0 cached, 21 new) took 1097.77 ms. Compile time 1053.89 ms, link time 43.76 ms.
+[2025.10.23-09.44.00:875][  0]LogPSOHitching: Encountered 50 PSO creation hitches so far (15 graphics, 35 compute). 0 of them were precached.
+[2025.10.23-09.44.01:655][  0]LogStall: Startup...
+[2025.10.23-09.44.01:659][  0]LogStall: Startup complete.
+[2025.10.23-09.44.01:717][  0]LogLoad: (Engine Initialization) Total time: 1457.31 seconds
+[2025.10.23-09.44.02:239][  0]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.10.23-09.44.02:318][  0]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.23-09.44.02:318][  0]LogContentValidation: Enabled validators:
+[2025.10.23-09.44.02:318][  0]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-09.44.02:318][  0]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-09.44.02:318][  0]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-09.44.02:318][  0]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-09.44.02:318][  0]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-09.44.02:318][  0]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-09.44.02:326][  0]AssetCheck: /Game/StarterContent/Architecture/Floor_400x400 Validating asset
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display: ================================================
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display: Total job queries 11,620, among them cache hits 0 (0.00%), DDC hits 0 (0.00%), Duplicates 2,682 (23.08%)
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display: Tracking 8,938 distinct input hashes that result in 8,338 distinct outputs (93.29%)
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display: RAM used: 6.30 MiB of 1.60 GiB budget. Usage: 0.38%
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display: Shaders Compiled: 8,815
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display: Jobs assigned 8,818, completed 8,815 (99.97%)
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display: Average time worker was idle: 0.07 s
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display: Time job spent in pending queue: average 703.35 s, longest 1416.64 s
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display: Job execution time: average 4.83 s, max 103.54 s
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display: Job life time (pending + execution): average 708.42 s, max 1417.36
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display: Shader code size: average 14.188 KiB, min 1.16 KiB, max 330.166 KiB
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1429.30 s
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.04%
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display: Jobs were issued in 900 batches (only local compilation was used), average 9.80 jobs/batch
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display: Average processing rate: 6.17 jobs/sec
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display: Total thread time: 4,202.6 s
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display: Total thread preprocess time: 106.716 s
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display: Percentage time preprocessing: 2.54%
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display: Effective parallelization: 2.94 (times faster than compiling all shaders on one thread). Compare with number of workers: 2
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 16.23 sec, max 53.11 sec, min 1.22 sec)
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 12.58 sec, max 12.58 sec, min 12.58 sec)
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 7.59 sec, max 8.45 sec, min 4.85 sec)
+[2025.10.23-09.44.02:349][  0]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 3.17 sec, max 6.12 sec, min 1.25 sec)
+[2025.10.23-09.44.02:350][  0]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.69 sec, max 5.87 sec, min 1.42 sec)
+[2025.10.23-09.44.02:350][  0]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.23-09.44.02:350][  0]LogShaderCompilers: Display:                                             FDeferredLightPS - 13.37% of total time (compiled  454 times, average 1.24 sec, max 2.54 sec, min 0.93 sec)
+[2025.10.23-09.44.02:350][  0]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 11.10% of total time (compiled  260 times, average 1.79 sec, max 4.30 sec, min 0.00 sec)
+[2025.10.23-09.44.02:350][  0]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 10.42% of total time (compiled   27 times, average 16.23 sec, max 53.11 sec, min 1.22 sec)
+[2025.10.23-09.44.02:350][  0]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 6.20% of total time (compiled  480 times, average 0.54 sec, max 2.30 sec, min 0.26 sec)
+[2025.10.23-09.44.02:350][  0]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 4.12% of total time (compiled   72 times, average 2.41 sec, max 8.33 sec, min 1.70 sec)
+[2025.10.23-09.44.02:350][  0]LogShaderCompilers: Display: === Material stats ===
+[2025.10.23-09.44.02:350][  0]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.23-09.44.02:350][  0]LogShaderCompilers: Display: Materials Translated:    136
+[2025.10.23-09.44.02:350][  0]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2025.10.23-09.44.02:350][  0]LogShaderCompilers: Display: Material Translation Only: 0.07 s (45%)
+[2025.10.23-09.44.02:350][  0]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.10.23-09.44.02:350][  0]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.10.23-09.44.02:350][  0]LogShaderCompilers: Display: ================================================
+[2025.10.23-09.44.02:406][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2025.10.23-09.44.02:406][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2025.10.23-09.44.02:445][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-09.44.02:446][  0]LogFab: Error: Login failed - error code: EOS_InvalidAuth
+[2025.10.23-09.44.02:446][  0]LogFab: Display: Logging in using exchange code
+[2025.10.23-09.44.02:446][  0]LogFab: Display: Reading exchange code from commandline
+[2025.10.23-09.44.02:446][  0]LogEOSSDK: Error: LogEOSAuth: Invalid parameter EOS_Auth_Credentials.Token reason: must not be null or empty
+[2025.10.23-09.44.02:449][  0]LogPython: Display: Running start-up script D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2025.10.23-09.44.02:503][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2025.10.23-09.44.02:509][  0]LogPython: Display: Running start-up script D:/Unreal engine zip/UE_5.5/UE_5.5/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 61.663 ms
+[2025.10.23-09.44.02:750][  1]LogAssetRegistry: AssetRegistryGather time 4.8933s: AssetDataDiscovery 0.2805s, AssetDataGather 4.5309s, StoreResults 0.0819s. Wall time 1449.6080s.
+	NumCachedDirectories 0. NumUncachedDirectories 1637. NumCachedFiles 0. NumUncachedFiles 7909.
+	BackgroundTickInterruptions 0.
+[2025.10.23-09.44.02:786][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000000 seconds (updated 0 objects)
+[2025.10.23-09.44.02:800][  1]LogSourceControl: Uncontrolled asset enumeration started...
+[2025.10.23-09.44.02:814][  1]LogFab: Error: Login failed - error code: EOS_InvalidParameters
+[2025.10.23-09.44.03:191][  3]LogSourceControl: Uncontrolled asset enumeration finished in 0.390205 seconds (Found 7617 uncontrolled assets)
+[2025.10.23-09.44.03:521][  5]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 19.229460
+[2025.10.23-09.44.03:523][  5]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2025.10.23-09.44.03:526][  6]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19.248201
+[2025.10.23-09.44.03:681][  6]LogPSOHitching: Encountered 100 PSO creation hitches so far (28 graphics, 72 compute). 0 of them were precached.
+[2025.10.23-09.44.03:959][ 18]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.10.23-09.44.04:194][ 44]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 19.911036
+[2025.10.23-09.44.04:198][ 45]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 1237667838
+[2025.10.23-09.44.04:198][ 45]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19.911036, Update Interval: 327.864014
+[2025.10.23-09.44.04:660][ 88]LogMeshUtilities: Finished distance field build in 2.2s - 63x63x63 sparse distance field, 0.4Mb total, 0.0Mb always loaded, 84% occupied, 176 triangles, FirstPersonProjectileMesh
+[2025.10.23-09.44.09:757][387]LogShaderCompilers: Display: FShaderCompileThreadRunnable::WriteNewTasks() took too long (0.881 seconds, threshold is 0.300 s), will parallelize next time.
+[2025.10.23-09.44.16:885][  9]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 28450.55 ms.
+[2025.10.23-09.45.53:263][122]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-09.45.53:315][122]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/GO/I8WEFD3RY9V3NVQLSU6QM4
+[2025.10.23-09.45.53:317][122]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/I8WEFD3RY9V3NVQLSU6QM450065CD942DCC53DEC9BE6ACE63847B3.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/GO/I8WEFD3RY9V3NVQLSU6QM4.uasset'
+[2025.10.23-09.45.53:321][122]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/WB/V4ALNTJYOVWM8BU452CKV5
+[2025.10.23-09.45.53:324][122]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/V4ALNTJYOVWM8BU452CKV5BB756FCD4B8CBCD0585CABBEAAABF71E.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/WB/V4ALNTJYOVWM8BU452CKV5.uasset'
+[2025.10.23-09.45.53:324][122]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/0Z/5RQIHCZ9W3UXRGL4LTLQAK
+[2025.10.23-09.45.53:330][122]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/5RQIHCZ9W3UXRGL4LTLQAKF973C5BB41863A4F5ED4F7B4AA0B9EB8.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/0Z/5RQIHCZ9W3UXRGL4LTLQAK.uasset'
+[2025.10.23-09.45.53:348][122]LogFileHelpers: InternalPromptForCheckoutAndSave took 84.801 ms (total: 931.185 ms)
+[2025.10.23-09.45.53:410][122]LogContentValidation: Display: Starting to validate 3 assets
+[2025.10.23-09.45.53:410][122]LogContentValidation: Enabled validators:
+[2025.10.23-09.45.53:410][122]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-09.45.53:410][122]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-09.45.53:410][122]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-09.45.53:410][122]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-09.45.53:410][122]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-09.45.53:410][122]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-09.45.53:412][122]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset

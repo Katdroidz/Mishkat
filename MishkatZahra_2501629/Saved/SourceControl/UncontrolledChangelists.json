@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/GO/I8WEFD3RY9V3NVQLSU6QM4.uasset",
+				"C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/WB/V4ALNTJYOVWM8BU452CKV5.uasset",
+				"C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/0Z/5RQIHCZ9W3UXRGL4LTLQAK.uasset"
+			]
+		}
+	]
+}
