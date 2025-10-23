@@ -1092,3 +1092,4 @@ LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dum
 [2025.10.23-09.19.54:222][  0]LogMaterial: Display: Missing cached shadermap for DefaultDeferredDecalMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 51772f1ea308ab0a6c9bcd63dbaf3c4868f06dc5), compiling. 
 [2025.10.23-09.19.54:279][  0]LogMaterial: Display: Missing cached shadermap for DefaultLightFunctionMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 2d8d8c3a789c20665dd7acc3dca917c503db7ff5), compiling. 
 [2025.10.23-09.19.55:847][  0]LogTurnkeySupport: Completed device detection: Code = 0
+[2025.10.23-09.21.48:925][  0]LogDerivedDataCache: C:/Users/2501629/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
