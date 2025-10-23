@@ -1544,3 +1544,939 @@ LogConfig: CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:32768]] deferred - d
 [2025.10.23-09.57.55:977][610]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.10.23-09.57.55:977][610]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.10.23-09.57.55:977][610]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.10.23-09.58.28:212][998]LogShaderCompilers: Display: ================================================
+[2025.10.23-09.58.28:212][998]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.23-09.58.28:212][998]LogShaderCompilers: Display: Total job queries 169, among them cache hits 11 (6.51%), DDC hits 152 (89.94%), Duplicates 2 (1.18%)
+[2025.10.23-09.58.28:212][998]LogShaderCompilers: Display: Tracking 156 distinct input hashes that result in 147 distinct outputs (94.23%)
+[2025.10.23-09.58.28:212][998]LogShaderCompilers: Display: RAM used: 118.95 KiB of 1.60 GiB budget. Usage: 0.01%
+[2025.10.23-09.58.28:212][998]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.23-09.58.28:212][998]LogShaderCompilers: Display: Shaders Compiled: 4
+[2025.10.23-09.58.28:212][998]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100%)
+[2025.10.23-09.58.28:212][998]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2025.10.23-09.58.28:212][998]LogShaderCompilers: Display: Time job spent in pending queue: average 0.37 s, longest 1.35 s
+[2025.10.23-09.58.28:212][998]LogShaderCompilers: Display: Job execution time: average 7.39 s, max 24.94 s
+[2025.10.23-09.58.28:212][998]LogShaderCompilers: Display: Job life time (pending + execution): average 7.76 s, max 26.29
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display: Shader code size: average 5.089 KiB, min 2.297 KiB, max 7.34 KiB
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 26.31 s
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display: Average processing rate: 0.15 jobs/sec
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display: Total thread time: 2.574 s
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display: Total thread preprocess time: 2.713 s
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display: Percentage time preprocessing: 105.39%
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display: Effective parallelization: 0.10 (times faster than compiling all shaders on one thread). Compare with number of workers: 2
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.69 sec, max 0.69 sec, min 0.69 sec)
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    1 times, average 0.49 sec, max 0.49 sec, min 0.49 sec)
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 0.49 sec, max 0.49 sec, min 0.49 sec)
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 0.47 sec, max 0.47 sec, min 0.47 sec)
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 26.94% of total time (compiled    1 times, average 0.69 sec, max 0.69 sec, min 0.69 sec)
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display:                                                 FDepthOnlyPS - 19.06% of total time (compiled    1 times, average 0.49 sec, max 0.49 sec, min 0.49 sec)
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display:                                                  FHitProxyPS - 18.93% of total time (compiled    1 times, average 0.49 sec, max 0.49 sec, min 0.49 sec)
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display:                                                  FHitProxyVS - 18.29% of total time (compiled    1 times, average 0.47 sec, max 0.47 sec, min 0.47 sec)
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> - 16.78% of total time (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display: === Material stats ===
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display: Materials Translated:    131
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display: Material Translation Only: 0.05 s (47%)
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display: Material Cache Hits: 22 (17%)
+[2025.10.23-09.58.28:213][998]LogShaderCompilers: Display: ================================================
+[2025.10.23-10.01.11:834][874]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 350.076141
+[2025.10.23-10.01.12:093][896]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.23-10.01.12:093][897]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 350.322418, Update Interval: 326.203186
+[2025.10.23-10.06.41:695][560]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 679.935608
+[2025.10.23-10.06.42:028][587]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.23-10.06.42:028][587]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 680.255676, Update Interval: 359.630127
+[2025.10.23-10.10.42:073][266]Cmd: DELETE
+[2025.10.23-10.10.42:073][266]Cmd: ACTOR DELETE
+[2025.10.23-10.10.42:078][266]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.10.42:140][266]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.10.23-10.10.42:141][266]LogEditorActor: Deleted 1 Actors (0.067 secs)
+[2025.10.23-10.10.43:320][373]Cmd: DELETE
+[2025.10.23-10.10.43:320][373]Cmd: ACTOR DELETE
+[2025.10.23-10.10.43:321][373]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.10.43:333][373]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.10.23-10.10.43:334][373]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2025.10.23-10.10.44:184][451]Cmd: DELETE
+[2025.10.23-10.10.44:186][451]Cmd: ACTOR DELETE
+[2025.10.23-10.10.44:189][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.10.44:199][451]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.10.23-10.10.44:199][451]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2025.10.23-10.10.45:276][547]Cmd: DELETE
+[2025.10.23-10.10.45:276][547]Cmd: ACTOR DELETE
+[2025.10.23-10.10.45:279][547]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.10.45:292][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.10.23-10.10.45:292][547]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2025.10.23-10.10.45:895][598]Cmd: DELETE
+[2025.10.23-10.10.45:895][598]Cmd: ACTOR DELETE
+[2025.10.23-10.10.45:898][598]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.10.45:911][598]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.10.23-10.10.45:911][598]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2025.10.23-10.10.46:774][677]Cmd: DELETE
+[2025.10.23-10.10.46:774][677]Cmd: ACTOR DELETE
+[2025.10.23-10.10.46:775][677]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.10.46:789][677]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.10.23-10.10.46:789][677]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2025.10.23-10.10.47:256][719]Cmd: DELETE
+[2025.10.23-10.10.47:256][719]Cmd: ACTOR DELETE
+[2025.10.23-10.10.47:258][719]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.10.47:269][719]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.10.23-10.10.47:271][719]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2025.10.23-10.10.47:878][772]Cmd: DELETE
+[2025.10.23-10.10.47:878][772]Cmd: ACTOR DELETE
+[2025.10.23-10.10.47:879][772]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.10.47:892][772]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.10.23-10.10.47:893][772]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2025.10.23-10.10.48:539][831]Cmd: DELETE
+[2025.10.23-10.10.48:539][831]Cmd: ACTOR DELETE
+[2025.10.23-10.10.48:540][831]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.10.48:552][831]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.10.23-10.10.48:553][831]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2025.10.23-10.10.49:129][877]Cmd: DELETE
+[2025.10.23-10.10.49:129][877]Cmd: ACTOR DELETE
+[2025.10.23-10.10.49:130][877]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.10.49:142][877]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.10.23-10.10.49:142][877]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2025.10.23-10.10.49:620][917]Cmd: DELETE
+[2025.10.23-10.10.49:620][917]Cmd: ACTOR DELETE
+[2025.10.23-10.10.49:622][917]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.10.49:635][917]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.10.23-10.10.49:637][917]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2025.10.23-10.10.50:171][964]Cmd: DELETE
+[2025.10.23-10.10.50:171][964]Cmd: ACTOR DELETE
+[2025.10.23-10.10.50:173][964]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.10.50:185][964]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.10.23-10.10.50:185][964]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2025.10.23-10.10.52:244][152]Cmd: DELETE
+[2025.10.23-10.10.52:244][152]Cmd: ACTOR DELETE
+[2025.10.23-10.10.52:246][152]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.10.52:259][152]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.10.23-10.10.52:259][152]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2025.10.23-10.10.52:771][196]Cmd: DELETE
+[2025.10.23-10.10.52:773][196]Cmd: ACTOR DELETE
+[2025.10.23-10.10.52:774][196]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.10.52:787][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.10.23-10.10.52:787][196]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2025.10.23-10.10.53:284][238]Cmd: DELETE
+[2025.10.23-10.10.53:284][238]Cmd: ACTOR DELETE
+[2025.10.23-10.10.53:286][238]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.10.53:298][238]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.10.23-10.10.53:299][238]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2025.10.23-10.10.54:248][322]Cmd: DELETE
+[2025.10.23-10.10.54:248][322]Cmd: ACTOR DELETE
+[2025.10.23-10.10.54:250][322]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.10.54:262][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.10.23-10.10.54:262][322]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2025.10.23-10.10.55:236][407]Cmd: DELETE
+[2025.10.23-10.10.55:236][407]Cmd: ACTOR DELETE
+[2025.10.23-10.10.55:238][407]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.10.55:253][407]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.10.23-10.10.55:255][407]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2025.10.23-10.10.56:046][477]Cmd: DELETE
+[2025.10.23-10.10.56:046][477]Cmd: ACTOR DELETE
+[2025.10.23-10.10.56:047][477]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.10.56:060][477]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.10.23-10.10.56:060][477]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2025.10.23-10.10.56:924][551]Cmd: DELETE
+[2025.10.23-10.10.56:924][551]Cmd: ACTOR DELETE
+[2025.10.23-10.10.56:925][551]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.10.56:938][551]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.10.23-10.10.56:938][551]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2025.10.23-10.10.58:325][675]Cmd: DELETE
+[2025.10.23-10.10.58:325][675]Cmd: ACTOR DELETE
+[2025.10.23-10.10.58:328][675]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.10.58:341][675]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.10.23-10.10.58:341][675]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2025.10.23-10.10.59:661][794]Cmd: DELETE
+[2025.10.23-10.10.59:661][794]Cmd: ACTOR DELETE
+[2025.10.23-10.10.59:663][794]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.10.59:675][794]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.10.23-10.10.59:675][794]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2025.10.23-10.11.00:772][890]Cmd: DELETE
+[2025.10.23-10.11.00:772][890]Cmd: ACTOR DELETE
+[2025.10.23-10.11.00:776][890]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.11.00:788][890]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.10.23-10.11.00:788][890]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2025.10.23-10.11.01:419][944]Cmd: DELETE
+[2025.10.23-10.11.01:419][944]Cmd: ACTOR DELETE
+[2025.10.23-10.11.01:420][944]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.11.01:433][944]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.10.23-10.11.01:434][944]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2025.10.23-10.11.02:022][996]Cmd: DELETE
+[2025.10.23-10.11.02:022][996]Cmd: ACTOR DELETE
+[2025.10.23-10.11.02:025][996]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.11.02:035][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.10.23-10.11.02:037][996]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2025.10.23-10.11.03:068][ 89]Cmd: DELETE
+[2025.10.23-10.11.03:068][ 89]Cmd: ACTOR DELETE
+[2025.10.23-10.11.03:069][ 89]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.11.03:084][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.10.23-10.11.03:084][ 89]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2025.10.23-10.11.06:252][382]Cmd: DELETE
+[2025.10.23-10.11.06:252][382]Cmd: ACTOR DELETE
+[2025.10.23-10.11.06:255][382]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.11.06:270][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.10.23-10.11.06:272][382]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2025.10.23-10.11.08:231][566]Cmd: DELETE
+[2025.10.23-10.11.08:231][566]Cmd: ACTOR DELETE
+[2025.10.23-10.11.08:234][566]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.11.08:245][566]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.10.23-10.11.08:245][566]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2025.10.23-10.11.08:855][618]Cmd: DELETE
+[2025.10.23-10.11.08:855][618]Cmd: ACTOR DELETE
+[2025.10.23-10.11.08:856][618]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.11.08:869][618]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.10.23-10.11.08:869][618]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2025.10.23-10.11.09:463][671]Cmd: DELETE
+[2025.10.23-10.11.09:463][671]Cmd: ACTOR DELETE
+[2025.10.23-10.11.09:466][671]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.11.09:478][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.10.23-10.11.09:480][671]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2025.10.23-10.11.10:463][760]Cmd: DELETE
+[2025.10.23-10.11.10:463][760]Cmd: ACTOR DELETE
+[2025.10.23-10.11.10:464][760]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.11.10:475][760]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.10.23-10.11.10:477][760]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2025.10.23-10.11.11:194][825]Cmd: DELETE
+[2025.10.23-10.11.11:194][825]Cmd: ACTOR DELETE
+[2025.10.23-10.11.11:194][825]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'ACTOR'. 
+[2025.10.23-10.11.11:197][825]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.11.11:209][825]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.10.23-10.11.11:210][825]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2025.10.23-10.11.11:755][872]Cmd: DELETE
+[2025.10.23-10.11.11:756][872]Cmd: ACTOR DELETE
+[2025.10.23-10.11.11:758][872]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.11.11:770][872]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.10.23-10.11.11:770][872]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2025.10.23-10.11.12:578][944]Cmd: DELETE
+[2025.10.23-10.11.12:578][944]Cmd: ACTOR DELETE
+[2025.10.23-10.11.12:580][944]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.11.12:592][944]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.10.23-10.11.12:593][944]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2025.10.23-10.11.12:998][977]Cmd: DELETE
+[2025.10.23-10.11.12:998][977]Cmd: ACTOR DELETE
+[2025.10.23-10.11.13:001][977]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.11.13:018][977]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.10.23-10.11.13:018][977]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2025.10.23-10.11.13:850][ 55]Cmd: DELETE
+[2025.10.23-10.11.13:850][ 55]Cmd: ACTOR DELETE
+[2025.10.23-10.11.13:853][ 55]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.11.13:865][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.10.23-10.11.13:867][ 55]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2025.10.23-10.11.15:079][164]Cmd: DELETE
+[2025.10.23-10.11.15:079][164]Cmd: ACTOR DELETE
+[2025.10.23-10.11.15:081][164]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.11.15:094][164]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.10.23-10.11.15:094][164]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2025.10.23-10.12.11:143][227]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.23-10.12.13:791][460]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.23-10.12.15:108][575]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.23-10.12.20:691][ 58]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.23-10.12.21:906][165]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.23-10.12.23:380][298]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.23-10.12.24:678][413]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.23-10.12.26:931][610]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.23-10.12.30:210][897]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.23-10.12.32:594][112]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.23-10.12.33:904][227]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.23-10.12.47:922][481]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1046.163330
+[2025.10.23-10.12.48:215][508]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.23-10.12.48:215][508]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1046.447144, Update Interval: 347.460571
+[2025.10.23-10.13.07:218][269]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-10.13.07:282][269]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.10.23-10.13.07:296][269]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.10.23-10.13.07:308][269]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.10.23-10.13.07:324][269]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/7Z/7EHFAZ5HVWXAWQ04QO5TH0
+[2025.10.23-10.13.07:325][269]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/7EHFAZ5HVWXAWQ04QO5TH0186DA4414E5FAF67984397B763094E3B.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/7Z/7EHFAZ5HVWXAWQ04QO5TH0.uasset'
+[2025.10.23-10.13.07:329][269]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Z7/W1SXRCM1KAKBJOIZDLHZ47
+[2025.10.23-10.13.07:329][269]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/W1SXRCM1KAKBJOIZDLHZ47CC67E29C4C4A148BBBCE3C9BFDD397C2.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Z7/W1SXRCM1KAKBJOIZDLHZ47.uasset'
+[2025.10.23-10.13.07:346][269]LogFileHelpers: InternalPromptForCheckoutAndSave took 128.256 ms (total: 225.361 ms)
+[2025.10.23-10.13.07:405][269]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.23-10.13.07:405][269]LogContentValidation: Enabled validators:
+[2025.10.23-10.13.07:406][269]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-10.13.07:406][269]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-10.13.07:406][269]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-10.13.07:406][269]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-10.13.07:406][269]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-10.13.07:406][269]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-10.13.07:406][269]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.10.23-10.13.17:347][155]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.10.23-10.15.41:146][457]Cmd: DUPLICATE
+[2025.10.23-10.15.41:146][457]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.15.51:731][405]Cmd: DELETE
+[2025.10.23-10.15.51:732][405]Cmd: ACTOR DELETE
+[2025.10.23-10.15.51:733][405]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.15.51:749][405]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.10.23-10.15.51:751][405]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2025.10.23-10.16.25:073][459]Cmd: DUPLICATE
+[2025.10.23-10.16.25:073][459]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.17.11:927][685]Cmd: DUPLICATE
+[2025.10.23-10.17.11:927][685]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.17.39:795][199]Cmd: DUPLICATE
+[2025.10.23-10.17.39:795][199]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.18.21:623][974]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-10.18.21:708][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.10.23-10.18.21:721][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.10.23-10.18.21:733][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.10.23-10.18.21:735][974]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/7Z/7EHFAZ5HVWXAWQ04QO5TH0
+[2025.10.23-10.18.21:737][974]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/7EHFAZ5HVWXAWQ04QO5TH02869AA5A497FF84AF3628784CE76FCDF.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/7Z/7EHFAZ5HVWXAWQ04QO5TH0.uasset'
+[2025.10.23-10.18.21:740][974]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/CI/MDLKSPNBZYN4N0OGEX895N
+[2025.10.23-10.18.21:740][974]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/MDLKSPNBZYN4N0OGEX895N059308514800A2B841D3F48AE26D97D6.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/CI/MDLKSPNBZYN4N0OGEX895N.uasset'
+[2025.10.23-10.18.21:743][974]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/XA/5E23C244X9AI3OSOJCXECF
+[2025.10.23-10.18.21:743][974]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/5E23C244X9AI3OSOJCXECF2AAE86C44F0444F04F74BE91608A1537.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/XA/5E23C244X9AI3OSOJCXECF.uasset'
+[2025.10.23-10.18.21:746][974]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/SF/EYNLDCPASJX83IPYZB1FAB
+[2025.10.23-10.18.21:746][974]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/EYNLDCPASJX83IPYZB1FAB1B244019469B8E901DF6C8B1731354CA.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/SF/EYNLDCPASJX83IPYZB1FAB.uasset'
+[2025.10.23-10.18.21:749][974]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/03/G1CNXCTP6AK1BUFEF7L3WY
+[2025.10.23-10.18.21:749][974]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/G1CNXCTP6AK1BUFEF7L3WYA12D8A3148EDCA5C1467F691BB8C632E.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/03/G1CNXCTP6AK1BUFEF7L3WY.uasset'
+[2025.10.23-10.18.21:793][974]LogFileHelpers: InternalPromptForCheckoutAndSave took 169.692 ms (total: 395.053 ms)
+[2025.10.23-10.18.21:831][974]LogContentValidation: Display: Starting to validate 5 assets
+[2025.10.23-10.18.21:831][974]LogContentValidation: Enabled validators:
+[2025.10.23-10.18.21:831][974]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-10.18.21:831][974]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-10.18.21:831][974]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-10.18.21:831][974]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-10.18.21:831][974]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-10.18.21:831][974]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-10.18.21:833][974]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.10.23-10.18.39:554][570]Cmd: DELETE
+[2025.10.23-10.18.39:554][570]Cmd: ACTOR DELETE
+[2025.10.23-10.18.39:557][570]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.18.39:570][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.10.23-10.18.39:570][570]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2025.10.23-10.18.40:702][674]Cmd: DELETE
+[2025.10.23-10.18.40:702][674]Cmd: ACTOR DELETE
+[2025.10.23-10.18.40:704][674]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.18.40:717][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.10.23-10.18.40:717][674]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2025.10.23-10.18.46:279][196]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1404.537842
+[2025.10.23-10.18.48:669][418]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.23-10.18.48:669][418]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1406.915527, Update Interval: 349.943542
+[2025.10.23-10.19.06:185][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.10.23-10.19.06:187][915]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.013
+[2025.10.23-10.19.35:882][539]Cmd: DUPLICATE
+[2025.10.23-10.19.35:882][539]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.19.42:187][105]Cmd: DELETE
+[2025.10.23-10.19.42:187][105]Cmd: ACTOR DELETE
+[2025.10.23-10.19.42:189][105]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.19.42:201][105]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.10.23-10.19.42:202][105]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2025.10.23-10.19.44:215][288]Cmd: DUPLICATE
+[2025.10.23-10.19.44:215][288]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.20.00:174][672]Cmd: DELETE
+[2025.10.23-10.20.00:174][672]Cmd: ACTOR DELETE
+[2025.10.23-10.20.00:177][672]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.20.00:189][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.10.23-10.20.00:189][672]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2025.10.23-10.22.23:303][683]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.10.23-10.22.23:441][684]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.10.23-10.22.47:594][749]Cmd: DUPLICATE
+[2025.10.23-10.22.47:594][749]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.23.03:536][100]Cmd: DUPLICATE
+[2025.10.23-10.23.03:536][100]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.23.30:750][381]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-10.23.30:835][381]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.10.23-10.23.30:848][381]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.10.23-10.23.30:860][381]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.10.23-10.23.30:863][381]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/CI/MDLKSPNBZYN4N0OGEX895N
+[2025.10.23-10.23.30:865][381]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/MDLKSPNBZYN4N0OGEX895NF0C38BF44C13D27E21278992888E766B.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/CI/MDLKSPNBZYN4N0OGEX895N.uasset'
+[2025.10.23-10.23.30:868][381]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/XA/5E23C244X9AI3OSOJCXECF
+[2025.10.23-10.23.30:868][381]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/5E23C244X9AI3OSOJCXECFA9D15E764F2BCC0D1BABA4A01A6C4ED9.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/XA/5E23C244X9AI3OSOJCXECF.uasset'
+[2025.10.23-10.23.30:871][381]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/SF/EYNLDCPASJX83IPYZB1FAB
+[2025.10.23-10.23.30:872][381]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/EYNLDCPASJX83IPYZB1FABB7AA0635417BCA7D8C28B3AD6F7D3AD7.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/SF/EYNLDCPASJX83IPYZB1FAB.uasset'
+[2025.10.23-10.23.30:875][381]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/03/G1CNXCTP6AK1BUFEF7L3WY
+[2025.10.23-10.23.30:875][381]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/G1CNXCTP6AK1BUFEF7L3WY9BA90CB54226518466EB539208A35835.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/03/G1CNXCTP6AK1BUFEF7L3WY.uasset'
+[2025.10.23-10.23.30:884][381]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/6A/YZZN3TG6IY1PB1H9K4B0M1
+[2025.10.23-10.23.30:884][381]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/YZZN3TG6IY1PB1H9K4B0M1A0D5A85345AC89300C624A91E5370679.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/6A/YZZN3TG6IY1PB1H9K4B0M1.uasset'
+[2025.10.23-10.23.30:884][381]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/F6/WIPN1HKYYI3R3CAORFC5M7
+[2025.10.23-10.23.30:884][381]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/WIPN1HKYYI3R3CAORFC5M7B6B9A724445E72BA993ADFA3DB1D2820.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/F6/WIPN1HKYYI3R3CAORFC5M7.uasset'
+[2025.10.23-10.23.30:887][381]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/55/N9AF6VNBLZ47ILC3WAS1T7
+[2025.10.23-10.23.30:889][381]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/N9AF6VNBLZ47ILC3WAS1T7EF030537487A3DBA195029AB7747B57D.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/55/N9AF6VNBLZ47ILC3WAS1T7.uasset'
+[2025.10.23-10.23.30:907][381]LogFileHelpers: InternalPromptForCheckoutAndSave took 156.697 ms (total: 551.750 ms)
+[2025.10.23-10.23.30:954][381]LogContentValidation: Display: Starting to validate 7 assets
+[2025.10.23-10.23.30:954][381]LogContentValidation: Enabled validators:
+[2025.10.23-10.23.30:954][381]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-10.23.30:954][381]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-10.23.30:954][381]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-10.23.30:954][381]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-10.23.30:954][381]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-10.23.30:954][381]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-10.23.30:954][381]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.10.23-10.23.30:975][381]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.10.23-10.24.36:486][886]Cmd: DUPLICATE
+[2025.10.23-10.24.36:486][886]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.25.03:118][162]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1781.393677
+[2025.10.23-10.25.03:427][185]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.23-10.25.03:427][185]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1781.689209, Update Interval: 321.154816
+[2025.10.23-10.25.03:965][232]Cmd: DUPLICATE
+[2025.10.23-10.25.03:965][232]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.25.23:700][921]Cmd: DUPLICATE
+[2025.10.23-10.25.23:700][921]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.25.29:671][415]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-10.25.29:762][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.10.23-10.25.29:775][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.10.23-10.25.29:786][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.10.23-10.25.29:789][415]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/WB/V4ALNTJYOVWM8BU452CKV5
+[2025.10.23-10.25.29:790][415]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/V4ALNTJYOVWM8BU452CKV57D57396349F7B6F955CEC0ACF44FF315.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/WB/V4ALNTJYOVWM8BU452CKV5.uasset'
+[2025.10.23-10.25.29:793][415]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/CI/MDLKSPNBZYN4N0OGEX895N
+[2025.10.23-10.25.29:795][415]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/MDLKSPNBZYN4N0OGEX895N7123EF664622326CD2292A99D463AAF0.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/CI/MDLKSPNBZYN4N0OGEX895N.uasset'
+[2025.10.23-10.25.29:798][415]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/SF/EYNLDCPASJX83IPYZB1FAB
+[2025.10.23-10.25.29:801][415]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/EYNLDCPASJX83IPYZB1FABAD6551C343788762503BA8BCB2220643.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/SF/EYNLDCPASJX83IPYZB1FAB.uasset'
+[2025.10.23-10.25.29:804][415]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/03/G1CNXCTP6AK1BUFEF7L3WY
+[2025.10.23-10.25.29:806][415]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/G1CNXCTP6AK1BUFEF7L3WYEE4766324606E25E732B3584787DB518.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/03/G1CNXCTP6AK1BUFEF7L3WY.uasset'
+[2025.10.23-10.25.29:810][415]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/6A/YZZN3TG6IY1PB1H9K4B0M1
+[2025.10.23-10.25.29:810][415]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/YZZN3TG6IY1PB1H9K4B0M1AC35E8E344672B74CF5826A48CEE4F0A.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/6A/YZZN3TG6IY1PB1H9K4B0M1.uasset'
+[2025.10.23-10.25.29:816][415]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/F6/WIPN1HKYYI3R3CAORFC5M7
+[2025.10.23-10.25.29:817][415]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/WIPN1HKYYI3R3CAORFC5M73183B8404BAD22754C25BBB3E3BEDC22.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/F6/WIPN1HKYYI3R3CAORFC5M7.uasset'
+[2025.10.23-10.25.29:821][415]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/55/N9AF6VNBLZ47ILC3WAS1T7
+[2025.10.23-10.25.29:821][415]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/N9AF6VNBLZ47ILC3WAS1T782E44BC2416EB1C7EF141494379BA8F7.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/55/N9AF6VNBLZ47ILC3WAS1T7.uasset'
+[2025.10.23-10.25.29:824][415]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/TG/QQG3IAN4AJEST7427Y59LY
+[2025.10.23-10.25.29:824][415]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/QQG3IAN4AJEST7427Y59LYF0DD45344C1E982006EEB299BD18F709.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/TG/QQG3IAN4AJEST7427Y59LY.uasset'
+[2025.10.23-10.25.29:827][415]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/ZZ/GAXC7PQVEJ7GPPHD15MD25
+[2025.10.23-10.25.29:827][415]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/GAXC7PQVEJ7GPPHD15MD2543BED71E4A2A136E1A3E0E8CCA8F58F2.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/ZZ/GAXC7PQVEJ7GPPHD15MD25.uasset'
+[2025.10.23-10.25.29:830][415]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/SH/YTE1ZN22W9D6ZKN6KGZHMJ
+[2025.10.23-10.25.29:830][415]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/YTE1ZN22W9D6ZKN6KGZHMJBBF35B7949052E90B2576D8E26E5C368.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/SH/YTE1ZN22W9D6ZKN6KGZHMJ.uasset'
+[2025.10.23-10.25.29:853][415]LogFileHelpers: InternalPromptForCheckoutAndSave took 181.333 ms (total: 733.084 ms)
+[2025.10.23-10.25.29:921][415]LogContentValidation: Display: Starting to validate 10 assets
+[2025.10.23-10.25.29:921][415]LogContentValidation: Enabled validators:
+[2025.10.23-10.25.29:921][415]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-10.25.29:921][415]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-10.25.29:921][415]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-10.25.29:921][415]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-10.25.29:922][415]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-10.25.29:922][415]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-10.25.29:922][415]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.10.23-10.26.29:937][405]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-10.26.30:021][405]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.10.23-10.26.30:035][405]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.10.23-10.26.30:046][405]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.10.23-10.26.30:049][405]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/7Z/7EHFAZ5HVWXAWQ04QO5TH0
+[2025.10.23-10.26.30:051][405]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/7EHFAZ5HVWXAWQ04QO5TH0AEB281AF48A37252E978CA98201A2050.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/7Z/7EHFAZ5HVWXAWQ04QO5TH0.uasset'
+[2025.10.23-10.26.30:056][405]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/CI/MDLKSPNBZYN4N0OGEX895N
+[2025.10.23-10.26.30:057][405]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/MDLKSPNBZYN4N0OGEX895NDFD59AA34B5C045B17B27BADB871358F.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/CI/MDLKSPNBZYN4N0OGEX895N.uasset'
+[2025.10.23-10.26.30:060][405]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/XA/5E23C244X9AI3OSOJCXECF
+[2025.10.23-10.26.30:067][405]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/5E23C244X9AI3OSOJCXECFC4220AED49DA2C7A32A2058D282CF4AA.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/XA/5E23C244X9AI3OSOJCXECF.uasset'
+[2025.10.23-10.26.30:067][405]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/SF/EYNLDCPASJX83IPYZB1FAB
+[2025.10.23-10.26.30:067][405]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/EYNLDCPASJX83IPYZB1FAB8BD434944D4A4DFE7F731DAED5CCEE39.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/SF/EYNLDCPASJX83IPYZB1FAB.uasset'
+[2025.10.23-10.26.30:070][405]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/03/G1CNXCTP6AK1BUFEF7L3WY
+[2025.10.23-10.26.30:070][405]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/G1CNXCTP6AK1BUFEF7L3WY184FA1404DE620FA340E6F9B1700876C.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/03/G1CNXCTP6AK1BUFEF7L3WY.uasset'
+[2025.10.23-10.26.30:073][405]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/TG/QQG3IAN4AJEST7427Y59LY
+[2025.10.23-10.26.30:073][405]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/QQG3IAN4AJEST7427Y59LY2046984145F7A85DF555BB8A3AB5AC93.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/TG/QQG3IAN4AJEST7427Y59LY.uasset'
+[2025.10.23-10.26.30:082][405]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/ZZ/GAXC7PQVEJ7GPPHD15MD25
+[2025.10.23-10.26.30:082][405]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/GAXC7PQVEJ7GPPHD15MD252A6D6B93415A6130F691B2828E726F14.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/ZZ/GAXC7PQVEJ7GPPHD15MD25.uasset'
+[2025.10.23-10.26.30:082][405]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/SH/YTE1ZN22W9D6ZKN6KGZHMJ
+[2025.10.23-10.26.30:082][405]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/YTE1ZN22W9D6ZKN6KGZHMJFAC012484F61473C386BDCA455A2F586.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/SH/YTE1ZN22W9D6ZKN6KGZHMJ.uasset'
+[2025.10.23-10.26.30:121][405]LogFileHelpers: InternalPromptForCheckoutAndSave took 182.914 ms (total: 915.998 ms)
+[2025.10.23-10.26.30:193][405]LogContentValidation: Display: Starting to validate 8 assets
+[2025.10.23-10.26.30:195][405]LogContentValidation: Enabled validators:
+[2025.10.23-10.26.30:195][405]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-10.26.30:195][405]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-10.26.30:195][405]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-10.26.30:195][405]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-10.26.30:195][405]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-10.26.30:195][405]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-10.26.30:195][405]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.10.23-10.26.35:578][863]Cmd: DUPLICATE
+[2025.10.23-10.26.35:578][863]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.26.40:911][311]Cmd: DELETE
+[2025.10.23-10.26.40:911][311]Cmd: ACTOR DELETE
+[2025.10.23-10.26.40:912][311]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.23-10.26.40:926][311]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.10.23-10.26.40:928][311]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2025.10.23-10.26.50:941][145]Cmd: DUPLICATE
+[2025.10.23-10.26.50:941][145]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.27.35:126][875]Cmd: DUPLICATE
+[2025.10.23-10.27.35:127][875]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.27.51:307][213]Cmd: DUPLICATE
+[2025.10.23-10.27.51:307][213]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.28.43:192][589]Cmd: DUPLICATE
+[2025.10.23-10.28.43:192][589]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.29.06:484][557]Cmd: DUPLICATE
+[2025.10.23-10.29.06:484][557]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.29.24:133][ 41]Cmd: DUPLICATE
+[2025.10.23-10.29.24:133][ 41]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.29.43:585][672]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-10.29.43:682][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.10.23-10.29.43:695][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.10.23-10.29.43:706][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.10.23-10.29.43:710][672]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/TG/QQG3IAN4AJEST7427Y59LY
+[2025.10.23-10.29.43:711][672]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/QQG3IAN4AJEST7427Y59LY9CBE311C4A145EB64E2A5DBF9542A47C.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/TG/QQG3IAN4AJEST7427Y59LY.uasset'
+[2025.10.23-10.29.43:714][672]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/ZZ/GAXC7PQVEJ7GPPHD15MD25
+[2025.10.23-10.29.43:715][672]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/GAXC7PQVEJ7GPPHD15MD259A59BB174F5625374A79E29FA7A4AD6F.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/ZZ/GAXC7PQVEJ7GPPHD15MD25.uasset'
+[2025.10.23-10.29.43:717][672]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/SH/YTE1ZN22W9D6ZKN6KGZHMJ
+[2025.10.23-10.29.43:720][672]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/YTE1ZN22W9D6ZKN6KGZHMJF9D2FCD84EAD9CE9CF4328B8CD39C6A4.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/SH/YTE1ZN22W9D6ZKN6KGZHMJ.uasset'
+[2025.10.23-10.29.43:721][672]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/58/M9LG0TN2TIUHO8FT4J82RN
+[2025.10.23-10.29.43:721][672]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/M9LG0TN2TIUHO8FT4J82RNF0C9F0B741CBB738B86B5CA9957B8692.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/58/M9LG0TN2TIUHO8FT4J82RN.uasset'
+[2025.10.23-10.29.43:725][672]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/UF/V9EPBMRO9VNWV452KCN6CU
+[2025.10.23-10.29.43:725][672]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/V9EPBMRO9VNWV452KCN6CU453DC1714D910AD5FBD03FA403048E2F.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/UF/V9EPBMRO9VNWV452KCN6CU.uasset'
+[2025.10.23-10.29.43:732][672]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/4P/QM59F2DZX33W0OX2T3LBAN
+[2025.10.23-10.29.43:732][672]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/QM59F2DZX33W0OX2T3LBAN68D9A8874328BE6BC64BEAA00238DFA4.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/4P/QM59F2DZX33W0OX2T3LBAN.uasset'
+[2025.10.23-10.29.43:732][672]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/4D/M28CKYA3KAZQX2R9R0F0GN
+[2025.10.23-10.29.43:732][672]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/M28CKYA3KAZQX2R9R0F0GN211B04934A9D003112F933B14BB6286B.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/4D/M28CKYA3KAZQX2R9R0F0GN.uasset'
+[2025.10.23-10.29.43:736][672]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/WH/SP8I692LU0TEKV6QS1QN01
+[2025.10.23-10.29.43:736][672]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/SP8I692LU0TEKV6QS1QN01DFF2C08142336D564B24E7A52F6328A7.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/WH/SP8I692LU0TEKV6QS1QN01.uasset'
+[2025.10.23-10.29.43:736][672]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/SH/BM6E5H5DT4RFGOUC7JDRJD
+[2025.10.23-10.29.43:736][672]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/BM6E5H5DT4RFGOUC7JDRJD1A5693BA47252A170B132783B1C5B658.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/SH/BM6E5H5DT4RFGOUC7JDRJD.uasset'
+[2025.10.23-10.29.43:739][672]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/2R/QCL90RB4X8Y8S71730RA6C
+[2025.10.23-10.29.43:739][672]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/QCL90RB4X8Y8S71730RA6C7B060F414AD48C731AC6E0BD4E03AE86.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/2R/QCL90RB4X8Y8S71730RA6C.uasset'
+[2025.10.23-10.29.43:759][672]LogFileHelpers: InternalPromptForCheckoutAndSave took 174.936 ms (total: 1.09 sec)
+[2025.10.23-10.29.43:817][672]LogContentValidation: Display: Starting to validate 10 assets
+[2025.10.23-10.29.43:817][672]LogContentValidation: Enabled validators:
+[2025.10.23-10.29.43:817][672]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-10.29.43:817][672]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-10.29.43:817][672]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-10.29.43:817][672]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-10.29.43:817][672]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-10.29.43:817][672]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-10.29.43:817][672]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.10.23-10.30.11:768][667]Cmd: DUPLICATE
+[2025.10.23-10.30.11:768][667]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.30.55:320][326]Cmd: DUPLICATE
+[2025.10.23-10.30.55:320][326]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.30.56:541][426]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2134.835693
+[2025.10.23-10.30.56:873][454]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.23-10.30.56:873][454]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2135.159180, Update Interval: 329.673157
+[2025.10.23-10.31.06:756][300]Cmd: DUPLICATE
+[2025.10.23-10.31.06:756][300]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.31.25:094][865]Cmd: DUPLICATE
+[2025.10.23-10.31.25:094][865]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.31.42:534][331]Cmd: DUPLICATE
+[2025.10.23-10.31.42:534][331]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.31.58:363][691]Cmd: DUPLICATE
+[2025.10.23-10.31.58:363][691]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.33.01:737][935]Cmd: DUPLICATE
+[2025.10.23-10.33.01:737][935]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.34.13:521][950]Cmd: DUPLICATE
+[2025.10.23-10.34.13:521][950]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.34.45:591][664]Cmd: DUPLICATE
+[2025.10.23-10.34.45:591][664]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.35.21:587][758]Cmd: DUPLICATE
+[2025.10.23-10.35.21:587][758]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.36.00:401][ 40]Cmd: DUPLICATE
+[2025.10.23-10.36.00:401][ 40]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.36.31:556][679]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-10.36.31:642][679]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.10.23-10.36.31:655][679]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.10.23-10.36.31:666][679]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.10.23-10.36.31:669][679]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/4D/M28CKYA3KAZQX2R9R0F0GN
+[2025.10.23-10.36.31:670][679]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/M28CKYA3KAZQX2R9R0F0GNFC4F2BF6416DC1D7536351A03AE9BC23.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/4D/M28CKYA3KAZQX2R9R0F0GN.uasset'
+[2025.10.23-10.36.31:673][679]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/WH/SP8I692LU0TEKV6QS1QN01
+[2025.10.23-10.36.31:675][679]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/SP8I692LU0TEKV6QS1QN01491DD19643C91F54364E82BA12E2B477.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/WH/SP8I692LU0TEKV6QS1QN01.uasset'
+[2025.10.23-10.36.31:678][679]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/9P/PTBEPPN807AQXFJIOCQ5VN
+[2025.10.23-10.36.31:678][679]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/PTBEPPN807AQXFJIOCQ5VNB5A6CB5F42C02AD6A9DE0589169673E1.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/9P/PTBEPPN807AQXFJIOCQ5VN.uasset'
+[2025.10.23-10.36.31:684][679]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/YG/FBROWCH9LNCLKJOCMXFGHF
+[2025.10.23-10.36.31:684][679]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/FBROWCH9LNCLKJOCMXFGHF24C12D314A7A403E05ED97939694789B.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/YG/FBROWCH9LNCLKJOCMXFGHF.uasset'
+[2025.10.23-10.36.31:687][679]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8F/S10SX5A8MPH52XF739XGQ8
+[2025.10.23-10.36.31:687][679]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/S10SX5A8MPH52XF739XGQ803207C424B7392F56F084BA7B4BCFA5E.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8F/S10SX5A8MPH52XF739XGQ8.uasset'
+[2025.10.23-10.36.31:690][679]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/6W/A5EMNRJMX20FIBUI70EH15
+[2025.10.23-10.36.31:690][679]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/A5EMNRJMX20FIBUI70EH150417F0F44480DACB11FB529C5450C0F9.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/6W/A5EMNRJMX20FIBUI70EH15.uasset'
+[2025.10.23-10.36.31:694][679]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/VQ/4ZWXV3U6CP0A8P646V5V3B
+[2025.10.23-10.36.31:694][679]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/4ZWXV3U6CP0A8P646V5V3BFBF05EE8410215B71DECCDBCA73347AD.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/VQ/4ZWXV3U6CP0A8P646V5V3B.uasset'
+[2025.10.23-10.36.31:699][679]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/T2/7AP663DMULUF9M444EWNPW
+[2025.10.23-10.36.31:699][679]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/7AP663DMULUF9M444EWNPWC634EFA44599AF45B3105B81FC0781B3.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/T2/7AP663DMULUF9M444EWNPW.uasset'
+[2025.10.23-10.36.31:702][679]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/NZ/OHKQK4WIHEEC9F4N7QZDQG
+[2025.10.23-10.36.31:702][679]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/OHKQK4WIHEEC9F4N7QZDQG785007374596925F1CA8249D85AD3E9E.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/NZ/OHKQK4WIHEEC9F4N7QZDQG.uasset'
+[2025.10.23-10.36.31:704][679]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/N8/KGD9IFXM1BHE6EWVDEGLUB
+[2025.10.23-10.36.31:704][679]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/KGD9IFXM1BHE6EWVDEGLUB7D6BC5ED4A3909B5F3E1EFAC43055C6B.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/N8/KGD9IFXM1BHE6EWVDEGLUB.uasset'
+[2025.10.23-10.36.31:707][679]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/ZQ/SZX6323I8E33PVAXWWW0LE
+[2025.10.23-10.36.31:707][679]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/SZX6323I8E33PVAXWWW0LE3B5339344384C77CCBCAD5B6ABB038CE.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/ZQ/SZX6323I8E33PVAXWWW0LE.uasset'
+[2025.10.23-10.36.31:712][679]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/OW/1H1LBJID0CCHJCC5TI1284
+[2025.10.23-10.36.31:712][679]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/1H1LBJID0CCHJCC5TI128458EDACD54689683D313FB58C600ABBE3.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/OW/1H1LBJID0CCHJCC5TI1284.uasset'
+[2025.10.23-10.36.31:715][679]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/PT/M2RD3RR0VJ5IZWRJK4GZ4W
+[2025.10.23-10.36.31:715][679]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/M2RD3RR0VJ5IZWRJK4GZ4W6EC576DE4E09273F1725CFB60812A913.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/PT/M2RD3RR0VJ5IZWRJK4GZ4W.uasset'
+[2025.10.23-10.36.31:731][679]LogFileHelpers: InternalPromptForCheckoutAndSave took 174.864 ms (total: 1.26 sec)
+[2025.10.23-10.36.31:793][679]LogContentValidation: Display: Starting to validate 13 assets
+[2025.10.23-10.36.31:793][679]LogContentValidation: Enabled validators:
+[2025.10.23-10.36.31:793][679]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-10.36.31:793][679]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-10.36.31:793][679]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-10.36.31:793][679]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-10.36.31:793][679]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-10.36.31:793][679]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-10.36.31:793][679]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.10.23-10.36.58:482][908]Cmd: TRANSACTION UNDO
+[2025.10.23-10.36.58:482][908]LogEditorTransaction: Undo Move Elements
+[2025.10.23-10.37.01:855][136]Cmd: DELETE
+[2025.10.23-10.37.01:856][136]Cmd: ACTOR DELETE
+[2025.10.23-10.37.01:858][136]LogEditorActor: Deleted Actor: DirectionalLight
+[2025.10.23-10.37.01:871][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.10.23-10.37.01:873][136]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2025.10.23-10.37.03:716][303]Cmd: TRANSACTION UNDO
+[2025.10.23-10.37.03:716][303]LogEditorTransaction: Undo Delete Elements
+[2025.10.23-10.37.05:782][434]Cmd: DELETE
+[2025.10.23-10.37.05:782][434]Cmd: ACTOR DELETE
+[2025.10.23-10.37.05:784][434]LogEditorActor: Deleted Actor: SkyLight
+[2025.10.23-10.37.05:799][434]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.10.23-10.37.05:800][434]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2025.10.23-10.37.08:966][711]Cmd: TRANSACTION UNDO
+[2025.10.23-10.37.08:966][711]LogEditorTransaction: Undo Delete Elements
+[2025.10.23-10.37.23:284][923]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2521.602295
+[2025.10.23-10.37.23:591][949]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.23-10.37.23:591][950]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2521.899658, Update Interval: 304.336060
+[2025.10.23-10.37.50:547][401]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SpotLight
+[2025.10.23-10.37.50:547][401]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SpotLight
+[2025.10.23-10.37.53:630][642]Cmd: DELETE
+[2025.10.23-10.37.53:630][642]Cmd: ACTOR DELETE
+[2025.10.23-10.37.53:632][642]LogEditorActor: Deleted Actor: DirectionalLight
+[2025.10.23-10.37.53:654][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.10.23-10.37.53:656][642]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2025.10.23-10.38.07:127][816]Cmd: TRANSACTION UNDO
+[2025.10.23-10.38.07:127][816]LogEditorTransaction: Undo Move Elements
+[2025.10.23-10.38.07:573][824]Cmd: TRANSACTION UNDO
+[2025.10.23-10.38.07:573][824]LogEditorTransaction: Undo Clicking on Elements
+[2025.10.23-10.38.08:128][859]Cmd: TRANSACTION UNDO
+[2025.10.23-10.38.08:128][859]LogEditorTransaction: Undo Delete Elements
+[2025.10.23-10.38.27:070][505]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=172.30.7.1:51002, Sequence=0
+[2025.10.23-10.38.27:070][505]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=172.30.7.1:51002, Sequence=0
+[2025.10.23-10.38.27:070][505]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=172.30.7.1:51002, Sequence=0
+[2025.10.23-10.38.27:070][505]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=172.30.7.1:51002, Sequence=0
+[2025.10.23-10.38.27:071][505]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=172.30.7.1:51002, Sequence=0
+[2025.10.23-10.38.27:071][505]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=172.30.7.1:51002, Sequence=0
+[2025.10.23-10.38.27:071][505]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=172.30.7.1:51002, Sequence=0
+[2025.10.23-10.38.27:071][505]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=172.30.7.1:51002, Sequence=0
+[2025.10.23-10.38.27:071][505]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=172.30.7.1:51002, Sequence=0
+[2025.10.23-10.38.27:071][505]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=172.30.7.1:51002, Sequence=0
+[2025.10.23-10.38.27:071][505]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=172.30.7.1:51002, Sequence=0
+[2025.10.23-10.38.27:071][505]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=172.30.7.1:51002, Sequence=0
+[2025.10.23-10.38.27:071][505]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=172.30.7.1:51002, Sequence=0
+[2025.10.23-10.38.27:071][505]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=172.30.7.1:51002, Sequence=0
+[2025.10.23-10.38.27:071][505]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=172.30.7.1:51002, Sequence=0
+[2025.10.23-10.38.27:101][507]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=172.30.7.1:51002, Sequence=0
+[2025.10.23-10.38.27:101][507]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=172.30.7.1:51002, Sequence=0
+[2025.10.23-10.38.27:101][507]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=172.30.7.1:51002, Sequence=0
+[2025.10.23-10.38.27:101][507]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=172.30.7.1:51002, Sequence=0
+[2025.10.23-10.38.27:101][507]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=172.30.7.1:51002, Sequence=0
+[2025.10.23-10.38.44:731][ 27]LogSlate: Window 'Color Picker' being destroyed
+[2025.10.23-10.38.53:182][741]Cmd: DELETE
+[2025.10.23-10.38.53:183][741]Cmd: ACTOR DELETE
+[2025.10.23-10.38.53:185][741]LogEditorActor: Deleted Actor: DirectionalLight
+[2025.10.23-10.38.53:199][741]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.10.23-10.38.53:202][741]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2025.10.23-10.39.17:390][785]Cmd: TRANSACTION UNDO
+[2025.10.23-10.39.17:390][785]LogEditorTransaction: Undo Clicking on Elements
+[2025.10.23-10.39.17:784][792]Cmd: TRANSACTION UNDO
+[2025.10.23-10.39.17:784][792]LogEditorTransaction: Undo Move Elements
+[2025.10.23-10.39.18:231][819]Cmd: TRANSACTION UNDO
+[2025.10.23-10.39.18:231][819]LogEditorTransaction: Undo Move Elements
+[2025.10.23-10.39.19:044][882]Cmd: TRANSACTION UNDO
+[2025.10.23-10.39.19:044][882]LogEditorTransaction: Undo Clicking on Elements
+[2025.10.23-10.39.19:649][918]Cmd: TRANSACTION UNDO
+[2025.10.23-10.39.19:649][918]LogEditorTransaction: Undo Clicking on Elements
+[2025.10.23-10.39.20:223][962]Cmd: TRANSACTION UNDO
+[2025.10.23-10.39.20:223][962]LogEditorTransaction: Undo Move Elements
+[2025.10.23-10.39.20:811][  7]Cmd: TRANSACTION UNDO
+[2025.10.23-10.39.20:813][  7]LogEditorTransaction: Undo Edit Intensity
+[2025.10.23-10.39.21:343][ 49]Cmd: TRANSACTION UNDO
+[2025.10.23-10.39.21:343][ 49]LogEditorTransaction: Undo Clicking on Elements
+[2025.10.23-10.39.22:053][ 73]Cmd: TRANSACTION UNDO
+[2025.10.23-10.39.22:053][ 73]LogEditorTransaction: Undo Delete Elements
+[2025.10.23-10.39.54:288][738]Cmd: DUPLICATE
+[2025.10.23-10.39.54:288][738]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.40.13:668][293]Cmd: DUPLICATE
+[2025.10.23-10.40.13:668][293]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.40.20:886][882]Cmd: DUPLICATE
+[2025.10.23-10.40.20:886][882]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.40.25:591][274]Cmd: DUPLICATE
+[2025.10.23-10.40.25:591][274]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.40.38:188][311]Cmd: DUPLICATE
+[2025.10.23-10.40.38:189][311]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.40.42:684][682]Cmd: DUPLICATE
+[2025.10.23-10.40.42:684][682]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.40.49:160][200]Cmd: DUPLICATE
+[2025.10.23-10.40.49:160][200]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.40.51:758][408]Cmd: TRANSACTION UNDO
+[2025.10.23-10.40.51:758][408]LogEditorTransaction: Undo Duplicate Elements
+[2025.10.23-10.40.54:510][578]Cmd: DUPLICATE
+[2025.10.23-10.40.54:510][578]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.41.02:392][219]Cmd: DUPLICATE
+[2025.10.23-10.41.02:392][219]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.41.14:399][211]Cmd: DUPLICATE
+[2025.10.23-10.41.14:399][211]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.41.22:517][855]LogSlate: Window 'Color Picker' being destroyed
+[2025.10.23-10.41.24:306][  3]Cmd: DUPLICATE
+[2025.10.23-10.41.24:306][  3]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.41.31:010][559]Cmd: DUPLICATE
+[2025.10.23-10.41.31:010][559]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.41.37:439][ 83]Cmd: DUPLICATE
+[2025.10.23-10.41.37:439][ 83]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.41.47:970][958]Cmd: DUPLICATE
+[2025.10.23-10.41.47:970][958]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.42.04:942][350]Cmd: DUPLICATE
+[2025.10.23-10.42.04:943][350]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.42.15:582][242]LogSlate: Window 'Color Picker' being destroyed
+[2025.10.23-10.43.05:590][178]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2863.906494
+[2025.10.23-10.43.05:866][202]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.23-10.43.05:866][202]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2864.172607, Update Interval: 324.800568
+[2025.10.23-10.44.51:250][657]Cmd: DUPLICATE
+[2025.10.23-10.44.51:250][657]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.44.58:949][297]Cmd: DUPLICATE
+[2025.10.23-10.44.58:949][297]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.45.03:877][694]Cmd: DUPLICATE
+[2025.10.23-10.45.03:877][694]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.45.07:459][980]Cmd: DUPLICATE
+[2025.10.23-10.45.07:459][980]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.45.15:381][602]Cmd: DUPLICATE
+[2025.10.23-10.45.15:381][602]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.45.20:032][976]Cmd: DUPLICATE
+[2025.10.23-10.45.20:032][976]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.45.26:495][495]Cmd: DUPLICATE
+[2025.10.23-10.45.26:495][495]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.45.31:907][931]Cmd: DUPLICATE
+[2025.10.23-10.45.31:907][931]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.45.35:414][207]Cmd: DUPLICATE
+[2025.10.23-10.45.35:415][207]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.45.39:186][509]Cmd: DUPLICATE
+[2025.10.23-10.45.39:186][509]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.45.42:207][750]Cmd: DUPLICATE
+[2025.10.23-10.45.42:207][750]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.45.47:071][141]Cmd: DUPLICATE
+[2025.10.23-10.45.47:071][141]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.45.51:567][501]Cmd: DUPLICATE
+[2025.10.23-10.45.51:567][501]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.45.57:564][977]Cmd: DUPLICATE
+[2025.10.23-10.45.57:564][977]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.46.02:371][366]Cmd: DUPLICATE
+[2025.10.23-10.46.02:371][366]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.46.09:003][894]Cmd: DUPLICATE
+[2025.10.23-10.46.09:003][894]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.46.13:396][248]Cmd: DUPLICATE
+[2025.10.23-10.46.13:396][248]Cmd: ACTOR DUPLICATE
+[2025.10.23-10.46.35:823][ 55]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.23-10.46.35:848][ 55]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.10.23-10.46.35:848][ 55]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.10.23-10.46.35:866][ 55]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 17.368 ms
+[2025.10.23-10.46.35:866][ 55]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.23-10.46.35:901][ 55]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.10.23-10.46.35:901][ 55]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.10.23-10.46.35:906][ 55]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.10.23-10.46.35:916][ 55]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009987s)
+[2025.10.23-10.46.35:916][ 55]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.010092s)
+[2025.10.23-10.46.35:931][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.10.23-10.46.35:932][ 55]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.10.23-10.46.35:934][ 55]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.23-10.46.35:934][ 55]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.23-10.46.35:934][ 55]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.23-10.46.35:934][ 55]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.23-10.46.35:937][ 55]LogWorldPartition: Display: WorldPartition initialize took 2.690 ms (total: 147.760 ms)
+[2025.10.23-10.46.35:937][ 55]LogPlayLevel: PIE: World Init took: (0.004869s)
+[2025.10.23-10.46.35:938][ 55]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.10.23-10.46.35:938][ 55]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-10.46.35:938][ 55]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-10.46.35:938][ 55]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-10.46.35:938][ 55]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-10.46.35:938][ 55]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.10.23-10.46.35:938][ 55]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-10.46.35:938][ 55]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.10.23-10.46.35:938][ 55]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-10.46.35:938][ 55]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-10.46.35:938][ 55]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-10.46.35:938][ 55]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-10.46.35:941][ 55]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.23-10.46.35:977][ 55]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2025.10.23-10.46.35:977][ 55]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-10.46.35:977][ 55]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-10.46.35:977][ 55]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-10.46.35:979][ 55]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.10.23-10.46.35:979][ 55]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.10.23-10.46.35:982][ 55]LogInit: FAudioDevice initialized with ID 2.
+[2025.10.23-10.46.35:982][ 55]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.10.23-10.46.35:982][ 55]LogAudio: Display: Audio Device (ID: 2) registered with world 'FirstPersonMap'.
+[2025.10.23-10.46.35:982][ 55]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.10.23-10.46.35:982][ 55]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.10.23-10.46.35:987][ 55]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.23-10.46.35:991][ 55]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.10.23-15.46.35
+[2025.10.23-10.46.35:993][ 55]LogWorld: Bringing up level for play took: 0.004730
+[2025.10.23-10.46.36:003][ 55]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2025.10.23-10.46.36:200][ 55]PIE: Server logged in
+[2025.10.23-10.46.36:201][ 55]PIE: Play in editor total start time 0.372 seconds.
+[2025.10.23-10.46.43:034][540]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.10.23-10.46.43:107][540]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2025.10.23-10.46.50:772][165]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-10.46.50:772][165]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.10.23-10.46.50:772][165]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-10.46.50:774][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-10.46.50:775][165]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.10.23-10.46.50:781][165]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-10.46.50:787][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-10.46.50:806][165]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.23-10.46.50:806][165]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.10.23-10.46.50:806][165]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.10.23-10.46.50:809][165]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.10.23-10.46.50:816][165]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-10.46.50:827][165]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.10.23-10.46.50:914][166]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2025.10.23-10.47.03:904][285]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-10.47.04:005][285]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.10.23-10.47.04:018][285]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.10.23-10.47.04:030][285]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.10.23-10.47.04:033][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5
+[2025.10.23-10.47.04:033][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/EAHCBN229IT8APJO305AH5FD48ADDF4EDD3AD531023288A1E72711.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5.uasset'
+[2025.10.23-10.47.04:038][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/XK/BND04VEZX2SMN00TRBKSTN
+[2025.10.23-10.47.04:038][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/BND04VEZX2SMN00TRBKSTNEB15FEAF413E82A82B01908379FCF63D.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/XK/BND04VEZX2SMN00TRBKSTN.uasset'
+[2025.10.23-10.47.04:040][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/TD/T9TFS8KZ4KQ3MJEL85UMHU
+[2025.10.23-10.47.04:040][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/T9TFS8KZ4KQ3MJEL85UMHU65598D0E43385801CC2EDAA7AC2B7EC8.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/TD/T9TFS8KZ4KQ3MJEL85UMHU.uasset'
+[2025.10.23-10.47.04:045][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/RF/2P280EN1S1C9QHHLALXAZ5
+[2025.10.23-10.47.04:045][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/2P280EN1S1C9QHHLALXAZ51B6D08B14B05110D91C665B6EC1AADEB.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/RF/2P280EN1S1C9QHHLALXAZ5.uasset'
+[2025.10.23-10.47.04:051][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/OA/CM6K2DSU4S7QR7X8MUM75O
+[2025.10.23-10.47.04:051][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/CM6K2DSU4S7QR7X8MUM75O8733A9C3464532EA98B3309AFB8FD15B.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/OA/CM6K2DSU4S7QR7X8MUM75O.uasset'
+[2025.10.23-10.47.04:054][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/1X/92X7QTF3TW03U4L5B1PJ0G
+[2025.10.23-10.47.04:054][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/92X7QTF3TW03U4L5B1PJ0G798D062A4FA29D913CE0C98243C39C6B.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/1X/92X7QTF3TW03U4L5B1PJ0G.uasset'
+[2025.10.23-10.47.04:055][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/1R/UCFXCFNMIV7P892XAOOSVO
+[2025.10.23-10.47.04:057][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/UCFXCFNMIV7P892XAOOSVOE649304C47C34A613B96C79DC24C0388.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/1R/UCFXCFNMIV7P892XAOOSVO.uasset'
+[2025.10.23-10.47.04:058][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/7K/S8IR7F82NPHCEYZ28FB7U6
+[2025.10.23-10.47.04:058][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/S8IR7F82NPHCEYZ28FB7U61A7810A04340541FABEBC3917C0EEC8B.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/7K/S8IR7F82NPHCEYZ28FB7U6.uasset'
+[2025.10.23-10.47.04:064][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/XL/RGL4Q1P5HV8B98A05592HH
+[2025.10.23-10.47.04:064][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/RGL4Q1P5HV8B98A05592HH8539177540413BFCA628EDB938F67D5C.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/XL/RGL4Q1P5HV8B98A05592HH.uasset'
+[2025.10.23-10.47.04:068][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/H0/Z3QQSMSKCFPTMP4LQ422IS
+[2025.10.23-10.47.04:068][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/Z3QQSMSKCFPTMP4LQ422IS4BDBB8C84C71CD0162BBED8A517C3A84.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/H0/Z3QQSMSKCFPTMP4LQ422IS.uasset'
+[2025.10.23-10.47.04:071][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/TN/5X85YYEWMAOQJTDZPL9DQB
+[2025.10.23-10.47.04:071][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/5X85YYEWMAOQJTDZPL9DQB5B6FB6084C556178B513CD80484C3778.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/TN/5X85YYEWMAOQJTDZPL9DQB.uasset'
+[2025.10.23-10.47.04:077][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/6T/5NQ3Z11CDI5OWN9EWNIMIS
+[2025.10.23-10.47.04:077][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/5NQ3Z11CDI5OWN9EWNIMIS2CAAB9A942CF0BFFEEF692BD237E0417.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/6T/5NQ3Z11CDI5OWN9EWNIMIS.uasset'
+[2025.10.23-10.47.04:082][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/DC/A7WVCDG3WXDXKJE90PBUFB
+[2025.10.23-10.47.04:082][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/A7WVCDG3WXDXKJE90PBUFBBF7DBFA7456CBDC9ACD6568D7CDFBDFF.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/DC/A7WVCDG3WXDXKJE90PBUFB.uasset'
+[2025.10.23-10.47.04:088][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/1T/K8WQ1KMCAR38GKDAI8B5F1
+[2025.10.23-10.47.04:088][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/K8WQ1KMCAR38GKDAI8B5F180CCE3BC455E83C7627837B5BCB11ABF.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/1T/K8WQ1KMCAR38GKDAI8B5F1.uasset'
+[2025.10.23-10.47.04:091][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/KO/V2ZCKLRMQGQC2GGZINKRYY
+[2025.10.23-10.47.04:091][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/V2ZCKLRMQGQC2GGZINKRYYBB1878514F7471BE072FD082E785B675.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/KO/V2ZCKLRMQGQC2GGZINKRYY.uasset'
+[2025.10.23-10.47.04:094][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/F6/UYGPD2ZGAXI6P9F7QFUVJM
+[2025.10.23-10.47.04:094][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/UYGPD2ZGAXI6P9F7QFUVJMD37BDA6147835E2E0CA7358E999ED144.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/F6/UYGPD2ZGAXI6P9F7QFUVJM.uasset'
+[2025.10.23-10.47.04:098][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/GW/9RXVUXA52NKZ298SG9J5LI
+[2025.10.23-10.47.04:098][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/9RXVUXA52NKZ298SG9J5LI7BE924004B7E9B997CB1F28E0BEDBB46.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/GW/9RXVUXA52NKZ298SG9J5LI.uasset'
+[2025.10.23-10.47.04:103][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/YC/WK8J67SLFD8BYAELDBWQR2
+[2025.10.23-10.47.04:103][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/WK8J67SLFD8BYAELDBWQR2B0AED4A0417D32921436FE82807AA6BA.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/YC/WK8J67SLFD8BYAELDBWQR2.uasset'
+[2025.10.23-10.47.04:106][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/KH/VMOKXNFQ8QXDQ3R37EDFZH
+[2025.10.23-10.47.04:106][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/VMOKXNFQ8QXDQ3R37EDFZHABDB81B74327D96177362B9CC484B095.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/KH/VMOKXNFQ8QXDQ3R37EDFZH.uasset'
+[2025.10.23-10.47.04:109][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/JA/Y2RCITF1G7NN5K9JKI9OH1
+[2025.10.23-10.47.04:109][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/Y2RCITF1G7NN5K9JKI9OH15F9FEE3E437CCCA948BC0C850FE7F40C.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/JA/Y2RCITF1G7NN5K9JKI9OH1.uasset'
+[2025.10.23-10.47.04:113][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/KM/GH8DSSQILUY99LPMJQXRG8
+[2025.10.23-10.47.04:113][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/GH8DSSQILUY99LPMJQXRG840987F6F40154973CB88249A06ED2CBA.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/KM/GH8DSSQILUY99LPMJQXRG8.uasset'
+[2025.10.23-10.47.04:114][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/ZU/NY27JL3UHGWXV9DEG7R7V7
+[2025.10.23-10.47.04:116][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/NY27JL3UHGWXV9DEG7R7V7543658574B3BF3E17115E5A0E12455AC.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/ZU/NY27JL3UHGWXV9DEG7R7V7.uasset'
+[2025.10.23-10.47.04:119][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/87/7YZ0RIJDBMFGRNX593SMW0
+[2025.10.23-10.47.04:119][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/7YZ0RIJDBMFGRNX593SMW046864CC84AB2C531F55584AEF768E449.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/87/7YZ0RIJDBMFGRNX593SMW0.uasset'
+[2025.10.23-10.47.04:123][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/YU/NB3PMA75NM1IFYJMTSLI67
+[2025.10.23-10.47.04:123][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/NB3PMA75NM1IFYJMTSLI678090164B4D335207C9EFC599AD29D76F.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/YU/NB3PMA75NM1IFYJMTSLI67.uasset'
+[2025.10.23-10.47.04:126][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/OU/GFQ0G41CB07WIXVRT3RJKH
+[2025.10.23-10.47.04:126][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/GFQ0G41CB07WIXVRT3RJKH25E4C5C54F4F80BCBDF53C9335794EF5.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/OU/GFQ0G41CB07WIXVRT3RJKH.uasset'
+[2025.10.23-10.47.04:129][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/XN/AA4DP37KFILZA66AQ6CJJ4
+[2025.10.23-10.47.04:129][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/AA4DP37KFILZA66AQ6CJJ4B468A47D497C1173EA3C09B89CF5ACE2.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/XN/AA4DP37KFILZA66AQ6CJJ4.uasset'
+[2025.10.23-10.47.04:132][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/94/OZ7ED1BP7X956GQUXLXUCH
+[2025.10.23-10.47.04:132][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/OZ7ED1BP7X956GQUXLXUCH8280797044A3A81EB62742994CE7549C.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/94/OZ7ED1BP7X956GQUXLXUCH.uasset'
+[2025.10.23-10.47.04:136][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/HU/ESZCFAUFFTG80K10CANK1V
+[2025.10.23-10.47.04:136][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/ESZCFAUFFTG80K10CANK1VCC6E98734F0C68A0AFA3068E864FE58E.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/HU/ESZCFAUFFTG80K10CANK1V.uasset'
+[2025.10.23-10.47.04:141][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/62/UOARRXRGO4QCVCNM7MK3I6
+[2025.10.23-10.47.04:143][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/UOARRXRGO4QCVCNM7MK3I66871768740AB24CB9BB113A302AB067B.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/62/UOARRXRGO4QCVCNM7MK3I6.uasset'
+[2025.10.23-10.47.04:146][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/R4/8BRH1XZB1A0WGMZPYYJL7P
+[2025.10.23-10.47.04:146][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/8BRH1XZB1A0WGMZPYYJL7PD793EA064E43D41BDE7EC79A812BCD47.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/R4/8BRH1XZB1A0WGMZPYYJL7P.uasset'
+[2025.10.23-10.47.04:149][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/Q8/3752Z4DGW1D4FCGRLKRHVU
+[2025.10.23-10.47.04:149][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/3752Z4DGW1D4FCGRLKRHVUE2724A81494BE815C578268D24EE9E9B.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/Q8/3752Z4DGW1D4FCGRLKRHVU.uasset'
+[2025.10.23-10.47.04:152][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/ZA/B3C2XYG7Q24P1GXP3P2V0L
+[2025.10.23-10.47.04:152][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/B3C2XYG7Q24P1GXP3P2V0L99686C484ECF9E04B0A137AE604CA1D7.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/ZA/B3C2XYG7Q24P1GXP3P2V0L.uasset'
+[2025.10.23-10.47.04:155][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/Q8/HQHVCAD63FOCEYW6KH6RAZ
+[2025.10.23-10.47.04:155][285]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/HQHVCAD63FOCEYW6KH6RAZ94E739034E81B77AAF30CCAA1F357FED.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/Q8/HQHVCAD63FOCEYW6KH6RAZ.uasset'
+[2025.10.23-10.47.04:174][285]LogFileHelpers: InternalPromptForCheckoutAndSave took 269.748 ms (total: 1.53 sec)
+[2025.10.23-10.47.04:241][285]LogContentValidation: Display: Starting to validate 33 assets
+[2025.10.23-10.47.04:241][285]LogContentValidation: Enabled validators:
+[2025.10.23-10.47.04:241][285]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-10.47.04:241][285]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-10.47.04:241][285]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-10.47.04:241][285]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-10.47.04:241][285]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-10.47.04:242][285]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-10.47.04:242][285]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.10.23-10.47.05:476][384]Cmd: DELETE
+[2025.10.23-10.47.05:476][384]Cmd: ACTOR DELETE
+[2025.10.23-10.47.05:479][384]LogEditorActor: Deleted Actor: DirectionalLight
+[2025.10.23-10.47.05:493][384]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.10.23-10.47.05:493][384]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2025.10.23-10.47.07:117][517]Cmd: DELETE
+[2025.10.23-10.47.07:119][517]Cmd: ACTOR DELETE
+[2025.10.23-10.47.07:121][517]LogEditorActor: Deleted Actor: SkyLight
+[2025.10.23-10.47.07:133][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.10.23-10.47.07:136][517]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2025.10.23-10.47.09:999][759]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.23-10.47.10:004][759]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.10.23-10.47.10:004][759]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.10.23-10.47.10:009][759]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 4.774 ms (total: 22.142 ms)
+[2025.10.23-10.47.10:011][759]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.23-10.47.10:011][759]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.10.23-10.47.10:018][759]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007988s)
+[2025.10.23-10.47.10:018][759]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.008057s)
+[2025.10.23-10.47.10:030][759]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.10.23-10.47.10:031][759]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.10.23-10.47.10:033][759]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.23-10.47.10:033][759]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.23-10.47.10:033][759]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.23-10.47.10:033][759]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.23-10.47.10:036][759]LogWorldPartition: Display: WorldPartition initialize took 2.511 ms (total: 150.272 ms)
+[2025.10.23-10.47.10:036][759]LogPlayLevel: PIE: World Init took: (0.004424s)
+[2025.10.23-10.47.10:036][759]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.10.23-10.47.10:036][759]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-10.47.10:036][759]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-10.47.10:036][759]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-10.47.10:036][759]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-10.47.10:036][759]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.10.23-10.47.10:036][759]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-10.47.10:036][759]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.10.23-10.47.10:036][759]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-10.47.10:036][759]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-10.47.10:037][759]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-10.47.10:037][759]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-10.47.10:040][759]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.23-10.47.10:072][759]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2025.10.23-10.47.10:072][759]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-10.47.10:072][759]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-10.47.10:072][759]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-10.47.10:073][759]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.10.23-10.47.10:073][759]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.10.23-10.47.10:076][759]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.10.23-10.47.10:076][759]LogInit: FAudioDevice initialized with ID 3.
+[2025.10.23-10.47.10:076][759]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.10.23-10.47.10:076][759]LogAudio: Display: Audio Device (ID: 3) registered with world 'FirstPersonMap'.
+[2025.10.23-10.47.10:076][759]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.10.23-10.47.10:080][759]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.23-10.47.10:087][759]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.10.23-15.47.10
+[2025.10.23-10.47.10:087][759]LogWorld: Bringing up level for play took: 0.006234
+[2025.10.23-10.47.10:090][759]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2025.10.23-10.47.10:095][759]PIE: Server logged in
+[2025.10.23-10.47.10:097][759]PIE: Play in editor total start time 0.092 seconds.
+[2025.10.23-10.47.18:421][466]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-10.47.18:421][466]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.10.23-10.47.18:421][466]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-10.47.18:422][466]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-10.47.18:422][466]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.10.23-10.47.18:430][466]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-10.47.18:433][466]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-10.47.18:448][466]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-10.47.18:448][466]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.10.23-10.47.18:448][466]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.10.23-10.47.18:451][466]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.10.23-10.47.18:460][466]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.10.23-10.47.18:496][467]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2025.10.23-10.47.51:432][215]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-10.47.51:530][215]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.10.23-10.47.51:544][215]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.10.23-10.47.51:556][215]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.10.23-10.47.51:559][215]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/87/7YZ0RIJDBMFGRNX593SMW0
+[2025.10.23-10.47.51:560][215]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/7YZ0RIJDBMFGRNX593SMW061B2C56D44C2768F16E666966B179CF9.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/87/7YZ0RIJDBMFGRNX593SMW0.uasset'
+[2025.10.23-10.47.51:564][215]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/YU/NB3PMA75NM1IFYJMTSLI67
+[2025.10.23-10.47.51:565][215]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Saved/NB3PMA75NM1IFYJMTSLI67491864C84FD5B6318C0EC083F46DD2A8.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/YU/NB3PMA75NM1IFYJMTSLI67.uasset'
+[2025.10.23-10.47.51:579][215]LogFileHelpers: InternalPromptForCheckoutAndSave took 147.003 ms (total: 1.68 sec)
+[2025.10.23-10.47.51:641][215]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.23-10.47.51:641][215]LogContentValidation: Enabled validators:
+[2025.10.23-10.47.51:641][215]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-10.47.51:641][215]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-10.47.51:641][215]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-10.47.51:641][215]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-10.47.51:641][215]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-10.47.51:641][215]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-10.47.51:641][215]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.10.23-10.48.25:509][199]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-10.48.25:606][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.10.23-10.48.25:619][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.10.23-10.48.25:631][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.10.23-10.48.25:643][199]LogFileHelpers: InternalPromptForCheckoutAndSave took 133.958 ms (total: 1.81 sec)
