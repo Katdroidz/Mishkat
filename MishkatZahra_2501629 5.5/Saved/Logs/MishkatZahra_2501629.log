@@ -23180,3 +23180,578 @@ Sampler Limit: 32
 [2025.10.30-10.38.17:269][219]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
 [2025.10.30-10.38.17:269][219]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
 [2025.10.30-10.38.17:602][219]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 14.143497 seconds
+[2025.10.30-10.38.31:606][261]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 6135.825684
+[2025.10.30-10.38.32:606][264]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.10.30-10.38.32:606][264]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2025.10.30-10.38.32:606][264]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.10.30-10.38.32:607][264]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: libcurl info message cache 1 (  Trying 34.230.135.80:443...)
+[2025.10.30-10.38.32:607][265]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: libcurl info message cache 2 (Connected to api.epicgames.dev (34.230.135.80) port 443)
+[2025.10.30-10.38.32:607][265]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.10.30-10.38.32:607][265]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.10.30-10.38.32:607][265]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.10.30-10.38.32:607][265]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.10.30-10.38.32:607][265]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.10.30-10.38.32:607][265]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2025.10.30-10.38.32:607][265]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: libcurl info message cache 9 (SSL certificate problem: unable to get local issuer certificate)
+[2025.10.30-10.38.32:607][265]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: libcurl info message cache 10 (Closing connection)
+[2025.10.30-10.38.32:607][265]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2025.10.30-10.38.32:609][265]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2025.10.30-10.38.32:939][265]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 2.313059 seconds
+[2025.10.30-10.38.34:939][271]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 6139.159668
+[2025.10.30-10.38.35:939][274]LogEOSSDK: Warning: LogHttp: 00000B7E34235A00: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.10.30-10.38.35:939][274]LogEOSSDK: Warning: LogHttp: 00000B7E34235A00: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2025.10.30-10.38.35:939][275]LogEOSSDK: Warning: LogHttp: 00000B7E34235A00: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.10.30-10.38.35:939][275]LogEOSSDK: Warning: LogHttp: 00000B7E34235A00: libcurl info message cache 1 (  Trying 34.230.135.80:443...)
+[2025.10.30-10.38.35:939][275]LogEOSSDK: Warning: LogHttp: 00000B7E34235A00: libcurl info message cache 2 (Connected to api.epicgames.dev (34.230.135.80) port 443)
+[2025.10.30-10.38.35:939][275]LogEOSSDK: Warning: LogHttp: 00000B7E34235A00: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.10.30-10.38.35:940][275]LogEOSSDK: Warning: LogHttp: 00000B7E34235A00: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.10.30-10.38.35:940][275]LogEOSSDK: Warning: LogHttp: 00000B7E34235A00: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.10.30-10.38.35:940][275]LogEOSSDK: Warning: LogHttp: 00000B7E34235A00: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.10.30-10.38.35:940][275]LogEOSSDK: Warning: LogHttp: 00000B7E34235A00: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.10.30-10.38.35:940][275]LogEOSSDK: Warning: LogHttp: 00000B7E34235A00: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2025.10.30-10.38.35:940][275]LogEOSSDK: Warning: LogHttp: 00000B7E34235A00: libcurl info message cache 9 (SSL certificate problem: unable to get local issuer certificate)
+[2025.10.30-10.38.35:940][275]LogEOSSDK: Warning: LogHttp: 00000B7E34235A00: libcurl info message cache 10 (Closing connection)
+[2025.10.30-10.38.35:940][275]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2025.10.30-10.38.35:940][275]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2025.10.30-10.38.36:272][275]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 4.521378 seconds
+[2025.10.30-10.38.37:073][277]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.10.30-10.38.37:075][277]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.028
+[2025.10.30-10.38.37:076][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/rocky_terrain_diff_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:076][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/rocky_terrain_diff_1k]
+[2025.10.30-10.38.37:080][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/rocky_terrain_diff_1k_Auto8
+[2025.10.30-10.38.37:080][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/rocky_terrain_diff_1k_Auto80B2521844684F098058F69BAD8564738.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/rocky_terrain_diff_1k_Auto8.uasset'
+[2025.10.30-10.38.37:082][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/rocky_terrain_arm_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:082][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/rocky_terrain_arm_1k]
+[2025.10.30-10.38.37:085][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/rocky_terrain_arm_1k_Auto8
+[2025.10.30-10.38.37:085][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/rocky_terrain_arm_1k_Auto80A3C0A5E4E2D5AC83CB418B4A5A034FD.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/rocky_terrain_arm_1k_Auto8.uasset'
+[2025.10.30-10.38.37:086][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/rocky_terrain_nor_gl_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:086][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/rocky_terrain_nor_gl_1k]
+[2025.10.30-10.38.37:096][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/rocky_terrain_nor_gl_1k_Auto8
+[2025.10.30-10.38.37:096][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/rocky_terrain_nor_gl_1k_Auto82CED1FF14E5A2A585DA1349BE898DC64.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/rocky_terrain_nor_gl_1k_Auto8.uasset'
+[2025.10.30-10.38.37:098][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/rocky_terrain_rough_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:098][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/rocky_terrain_rough_1k]
+[2025.10.30-10.38.37:102][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/rocky_terrain_rough_1k_Auto8
+[2025.10.30-10.38.37:102][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/rocky_terrain_rough_1k_Auto81FB033B44AE805C41C585DB062AF4F9B.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/rocky_terrain_rough_1k_Auto8.uasset'
+[2025.10.30-10.38.37:104][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/rocky_terrain_disp_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:104][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/rocky_terrain_disp_1k]
+[2025.10.30-10.38.37:107][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/rocky_terrain_disp_1k_Auto8
+[2025.10.30-10.38.37:107][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/rocky_terrain_disp_1k_Auto8F40AA14240685EECF10F3B9A35CFEE1B.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/rocky_terrain_disp_1k_Auto8.uasset'
+[2025.10.30-10.38.37:110][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/rocky_terrain_ao_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:110][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/rocky_terrain_ao_1k]
+[2025.10.30-10.38.37:113][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/rocky_terrain_ao_1k_Auto8
+[2025.10.30-10.38.37:113][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/rocky_terrain_ao_1k_Auto88E32247B409F1AB5E3CF1EBF1C8ADF44.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/rocky_terrain_ao_1k_Auto8.uasset'
+[2025.10.30-10.38.37:114][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mossy_brick_ao_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:115][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/mossy_brick_ao_1k]
+[2025.10.30-10.38.37:117][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/mossy_brick_ao_1k_Auto8
+[2025.10.30-10.38.37:117][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/mossy_brick_ao_1k_Auto8F32E57144D2592654592C68E4B150E0E.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/mossy_brick_ao_1k_Auto8.uasset'
+[2025.10.30-10.38.37:119][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mossy_brick_arm_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:119][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/mossy_brick_arm_1k]
+[2025.10.30-10.38.37:122][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/mossy_brick_arm_1k_Auto8
+[2025.10.30-10.38.37:122][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/mossy_brick_arm_1k_Auto87F7DC9364A8D6355E3BCECB7B06E77FC.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/mossy_brick_arm_1k_Auto8.uasset'
+[2025.10.30-10.38.37:124][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mossy_brick_rough_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:124][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/mossy_brick_rough_1k]
+[2025.10.30-10.38.37:128][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/mossy_brick_rough_1k_Auto8
+[2025.10.30-10.38.37:128][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/mossy_brick_rough_1k_Auto8E3DDD57F4E85C0C748BB95B4EEC4C19C.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/mossy_brick_rough_1k_Auto8.uasset'
+[2025.10.30-10.38.37:129][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mossy_brick_nor_gl_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:129][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/mossy_brick_nor_gl_1k]
+[2025.10.30-10.38.37:139][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/mossy_brick_nor_gl_1k_Auto8
+[2025.10.30-10.38.37:139][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/mossy_brick_nor_gl_1k_Auto81953322442FBE8F9808D1E8DFCABC35E.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/mossy_brick_nor_gl_1k_Auto8.uasset'
+[2025.10.30-10.38.37:141][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mossy_brick_disp_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:141][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/mossy_brick_disp_1k]
+[2025.10.30-10.38.37:144][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/mossy_brick_disp_1k_Auto8
+[2025.10.30-10.38.37:144][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/mossy_brick_disp_1k_Auto883863DB7499C4740A37E25B82B6AFDC9.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/mossy_brick_disp_1k_Auto8.uasset'
+[2025.10.30-10.38.37:146][277]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/mossy_brick_diff_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:149][277]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/mossy_brick_diff_1k.mossy_brick_diff_1k]
+[2025.10.30-10.38.37:149][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/mossy_brick_diff_1k]
+[2025.10.30-10.38.37:152][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/mossy_brick_diff_1k_Auto8
+[2025.10.30-10.38.37:153][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/mossy_brick_diff_1k_Auto85C2648B343233488ACDA7E92F6557702.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/mossy_brick_diff_1k_Auto8.uasset'
+[2025.10.30-10.38.37:154][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/red_bricks_02_disp_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:154][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/red_bricks_02_disp_1k]
+[2025.10.30-10.38.37:162][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/red_bricks_02_disp_1k_Auto8
+[2025.10.30-10.38.37:162][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/red_bricks_02_disp_1k_Auto899FB4CCC431F699D5FB26987D4B21590.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/red_bricks_02_disp_1k_Auto8.uasset'
+[2025.10.30-10.38.37:164][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/red_bricks_02_rough_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:164][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/red_bricks_02_rough_1k]
+[2025.10.30-10.38.37:173][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/red_bricks_02_rough_1k_Auto8
+[2025.10.30-10.38.37:173][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/red_bricks_02_rough_1k_Auto82020BC51476CEDFE601C43B30ECDC9CD.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/red_bricks_02_rough_1k_Auto8.uasset'
+[2025.10.30-10.38.37:175][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/red_bricks_02_ao_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:175][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/red_bricks_02_ao_1k]
+[2025.10.30-10.38.37:177][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/red_bricks_02_ao_1k_Auto8
+[2025.10.30-10.38.37:177][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/red_bricks_02_ao_1k_Auto839FD79A140A1A79ADA4C31BAB87706B6.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/red_bricks_02_ao_1k_Auto8.uasset'
+[2025.10.30-10.38.37:178][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/red_bricks_02_nor_gl_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:179][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/red_bricks_02_nor_gl_1k]
+[2025.10.30-10.38.37:187][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/red_bricks_02_nor_gl_1k_Auto8
+[2025.10.30-10.38.37:187][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/red_bricks_02_nor_gl_1k_Auto8843D8B1A43F72DEB6028DF9391A8D361.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/red_bricks_02_nor_gl_1k_Auto8.uasset'
+[2025.10.30-10.38.37:188][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/red_bricks_02_diff_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:188][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/red_bricks_02_diff_1k]
+[2025.10.30-10.38.37:192][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/red_bricks_02_diff_1k_Auto8
+[2025.10.30-10.38.37:192][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/red_bricks_02_diff_1k_Auto85DB09C764DC8361B14A6CDA2C84BDC5A.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/red_bricks_02_diff_1k_Auto8.uasset'
+[2025.10.30-10.38.37:194][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/red_bricks_02_arm_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:194][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/red_bricks_02_arm_1k]
+[2025.10.30-10.38.37:196][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/red_bricks_02_arm_1k_Auto8
+[2025.10.30-10.38.37:196][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/red_bricks_02_arm_1k_Auto8CAEF364C4D88122C0CBF80884BB0126D.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/red_bricks_02_arm_1k_Auto8.uasset'
+[2025.10.30-10.38.37:197][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/rock_moss_set_02_diff_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:197][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/rock_moss_set_02_diff_1k]
+[2025.10.30-10.38.37:203][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/rock_moss_set_02_diff_1k_Auto8
+[2025.10.30-10.38.37:203][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/rock_moss_set_02_diff_1k_Auto8F44973B24A08A302A33FD4B203DE0A24.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/rock_moss_set_02_diff_1k_Auto8.uasset'
+[2025.10.30-10.38.37:204][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/rock_moss_set_02_nor_gl_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:204][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/rock_moss_set_02_nor_gl_1k]
+[2025.10.30-10.38.37:214][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/rock_moss_set_02_nor_gl_1k_Auto8
+[2025.10.30-10.38.37:214][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/rock_moss_set_02_nor_gl_1k_Auto83602134744B7FA87FE93F88A6DFF22E1.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/rock_moss_set_02_nor_gl_1k_Auto8.uasset'
+[2025.10.30-10.38.37:216][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/rock_moss_set_02] ([1] browsable assets)...
+[2025.10.30-10.38.37:216][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/rock_moss_set_02]
+[2025.10.30-10.38.37:222][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/rock_moss_set_02_Auto8
+[2025.10.30-10.38.37:222][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/rock_moss_set_02_Auto8412FFAB54B4B7DFC781DB5AD88EF5D84.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/rock_moss_set_02_Auto8.uasset'
+[2025.10.30-10.38.37:224][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/rock_moss_set_02_rock08] ([1] browsable assets)...
+[2025.10.30-10.38.37:224][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/rock_moss_set_02_rock08]
+[2025.10.30-10.38.37:237][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/rock_moss_set_02_rock08_Auto8
+[2025.10.30-10.38.37:237][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/rock_moss_set_02_rock08_Auto822759EBB46D228F4C31BC0A6885BC2B4.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/rock_moss_set_02_rock08_Auto8.uasset'
+[2025.10.30-10.38.37:238][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/rock_moss_set_02_rock07] ([1] browsable assets)...
+[2025.10.30-10.38.37:239][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/rock_moss_set_02_rock07]
+[2025.10.30-10.38.37:249][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/rock_moss_set_02_rock07_Auto8
+[2025.10.30-10.38.37:249][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/rock_moss_set_02_rock07_Auto8782167CA408F930AB81FA4929D25AEF8.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/rock_moss_set_02_rock07_Auto8.uasset'
+[2025.10.30-10.38.37:251][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/rock_moss_set_02_rock09] ([1] browsable assets)...
+[2025.10.30-10.38.37:251][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/rock_moss_set_02_rock09]
+[2025.10.30-10.38.37:261][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/rock_moss_set_02_rock09_Auto8
+[2025.10.30-10.38.37:261][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/rock_moss_set_02_rock09_Auto8B317C072412D0EF14AB267AF8BE0E199.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/rock_moss_set_02_rock09_Auto8.uasset'
+[2025.10.30-10.38.37:263][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/rock_moss_set_02_rock10] ([1] browsable assets)...
+[2025.10.30-10.38.37:263][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/rock_moss_set_02_rock10]
+[2025.10.30-10.38.37:274][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/rock_moss_set_02_rock10_Auto8
+[2025.10.30-10.38.37:274][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/rock_moss_set_02_rock10_Auto871AA93C74C3A493AF2E2399E8579C28E.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/rock_moss_set_02_rock10_Auto8.uasset'
+[2025.10.30-10.38.37:275][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/rock_moss_set_02_rock11] ([1] browsable assets)...
+[2025.10.30-10.38.37:276][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/rock_moss_set_02_rock11]
+[2025.10.30-10.38.37:285][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/rock_moss_set_02_rock11_Auto8
+[2025.10.30-10.38.37:285][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/rock_moss_set_02_rock11_Auto8078C0E174FE3A4590D6FFA9E0E2775BA.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/rock_moss_set_02_rock11_Auto8.uasset'
+[2025.10.30-10.38.37:287][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/rock_moss_set_02_rock12] ([1] browsable assets)...
+[2025.10.30-10.38.37:287][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/rock_moss_set_02_rock12]
+[2025.10.30-10.38.37:298][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/rock_moss_set_02_rock12_Auto8
+[2025.10.30-10.38.37:298][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/rock_moss_set_02_rock12_Auto85D27D8FF47A9F2E8F7B5C9B4E5B084CF.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/rock_moss_set_02_rock12_Auto8.uasset'
+[2025.10.30-10.38.37:300][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/rock_moss_set_02_rock13] ([1] browsable assets)...
+[2025.10.30-10.38.37:300][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/rock_moss_set_02_rock13]
+[2025.10.30-10.38.37:310][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/rock_moss_set_02_rock13_Auto8
+[2025.10.30-10.38.37:311][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/rock_moss_set_02_rock13_Auto83393927240E477BA5755C682DF301649.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/rock_moss_set_02_rock13_Auto8.uasset'
+[2025.10.30-10.38.37:312][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/rock_moss_set_02_diff_1k_Mat] ([1] browsable assets)...
+[2025.10.30-10.38.37:313][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/rock_moss_set_02_diff_1k_Mat]
+[2025.10.30-10.38.37:314][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/rock_moss_set_02_diff_1k_Mat_Auto8
+[2025.10.30-10.38.37:314][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/rock_moss_set_02_diff_1k_Mat_Aut6D8255B640BAC296DB9B0FB62AFA6AD2.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/rock_moss_set_02_diff_1k_Mat_Auto8.uasset'
+[2025.10.30-10.38.37:316][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/rock_moss_set_02_nor_gl_1k_Mat] ([1] browsable assets)...
+[2025.10.30-10.38.37:316][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/rock_moss_set_02_nor_gl_1k_Mat]
+[2025.10.30-10.38.37:318][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/rock_moss_set_02_nor_gl_1k_Mat_Auto8
+[2025.10.30-10.38.37:318][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/rock_moss_set_02_nor_gl_1k_Mat_AD5C8FBB64CB5DF7AFD58BEA33B7327AF.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/rock_moss_set_02_nor_gl_1k_Mat_Auto8.uasset'
+[2025.10.30-10.38.37:320][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/flower_heliophila] ([1] browsable assets)...
+[2025.10.30-10.38.37:320][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower_heliophila]
+[2025.10.30-10.38.37:324][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower_heliophila_Auto8
+[2025.10.30-10.38.37:325][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_heliophila_Auto8990914734A326A81D5DB0FAFB6C968F1.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/flower_heliophila_Auto8.uasset'
+[2025.10.30-10.38.37:326][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/flower_heliophila_small_LOD1] ([1] browsable assets)...
+[2025.10.30-10.38.37:326][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower_heliophila_small_LOD1]
+[2025.10.30-10.38.37:340][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower_heliophila_small_LOD1_Auto8
+[2025.10.30-10.38.37:340][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_heliophila_small_LOD1_Aut8C4082F94527E2AFF2DADDA11B5FE54A.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/flower_heliophila_small_LOD1_Auto8.uasset'
+[2025.10.30-10.38.37:342][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/flower_heliophila_medium_LOD3] ([1] browsable assets)...
+[2025.10.30-10.38.37:342][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower_heliophila_medium_LOD3]
+[2025.10.30-10.38.37:355][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower_heliophila_medium_LOD3_Auto8
+[2025.10.30-10.38.37:355][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_heliophila_medium_LOD3_AuC5CA25B0430811F1B4B7879A20A6F556.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/flower_heliophila_medium_LOD3_Auto8.uasset'
+[2025.10.30-10.38.37:357][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/flower_heliophila_small_LOD0] ([1] browsable assets)...
+[2025.10.30-10.38.37:357][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower_heliophila_small_LOD0]
+[2025.10.30-10.38.37:371][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower_heliophila_small_LOD0_Auto8
+[2025.10.30-10.38.37:371][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_heliophila_small_LOD0_Aut415FA64C4A95E853BBA6EF839CA09C3B.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/flower_heliophila_small_LOD0_Auto8.uasset'
+[2025.10.30-10.38.37:373][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/flower_heliophila_small_LOD2] ([1] browsable assets)...
+[2025.10.30-10.38.37:373][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower_heliophila_small_LOD2]
+[2025.10.30-10.38.37:389][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower_heliophila_small_LOD2_Auto8
+[2025.10.30-10.38.37:389][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_heliophila_small_LOD2_AutC1D71DE04CA3E3FD6EB5AA85A900246A.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/flower_heliophila_small_LOD2_Auto8.uasset'
+[2025.10.30-10.38.37:391][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/flower_heliophila_small_LOD3] ([1] browsable assets)...
+[2025.10.30-10.38.37:391][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower_heliophila_small_LOD3]
+[2025.10.30-10.38.37:402][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower_heliophila_small_LOD3_Auto8
+[2025.10.30-10.38.37:402][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_heliophila_small_LOD3_Aut16E1F36F4D7AECB192A4BAB1544E031F.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/flower_heliophila_small_LOD3_Auto8.uasset'
+[2025.10.30-10.38.37:404][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/flower_heliophila_large_LOD3] ([1] browsable assets)...
+[2025.10.30-10.38.37:404][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower_heliophila_large_LOD3]
+[2025.10.30-10.38.37:419][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower_heliophila_large_LOD3_Auto8
+[2025.10.30-10.38.37:419][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_heliophila_large_LOD3_Aut70F611D74E086F3B15446A9EFB7702AE.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/flower_heliophila_large_LOD3_Auto8.uasset'
+[2025.10.30-10.38.37:421][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/flower_heliophila_large_LOD0] ([1] browsable assets)...
+[2025.10.30-10.38.37:421][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower_heliophila_large_LOD0]
+[2025.10.30-10.38.37:449][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower_heliophila_large_LOD0_Auto8
+[2025.10.30-10.38.37:449][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_heliophila_large_LOD0_AutAEABBCB44703BB67466BE69BA9F20035.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/flower_heliophila_large_LOD0_Auto8.uasset'
+[2025.10.30-10.38.37:451][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/flower_heliophila_large_LOD1] ([1] browsable assets)...
+[2025.10.30-10.38.37:451][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower_heliophila_large_LOD1]
+[2025.10.30-10.38.37:480][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower_heliophila_large_LOD1_Auto8
+[2025.10.30-10.38.37:480][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_heliophila_large_LOD1_Aut698C3B7C4C4E89C8569EA2AD96DD68B3.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/flower_heliophila_large_LOD1_Auto8.uasset'
+[2025.10.30-10.38.37:482][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/flower_heliophila_large_LOD2] ([1] browsable assets)...
+[2025.10.30-10.38.37:482][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower_heliophila_large_LOD2]
+[2025.10.30-10.38.37:512][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower_heliophila_large_LOD2_Auto8
+[2025.10.30-10.38.37:512][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_heliophila_large_LOD2_AutC681D0CF46C79E70F79ED3BE30E3C150.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/flower_heliophila_large_LOD2_Auto8.uasset'
+[2025.10.30-10.38.37:514][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/flower_heliophila_medium_LOD0] ([1] browsable assets)...
+[2025.10.30-10.38.37:514][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower_heliophila_medium_LOD0]
+[2025.10.30-10.38.37:533][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower_heliophila_medium_LOD0_Auto8
+[2025.10.30-10.38.37:533][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_heliophila_medium_LOD0_Au5EF66B0047CC23F3AAE578A3F408A268.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/flower_heliophila_medium_LOD0_Auto8.uasset'
+[2025.10.30-10.38.37:535][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/flower_heliophila_medium_LOD1] ([1] browsable assets)...
+[2025.10.30-10.38.37:535][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower_heliophila_medium_LOD1]
+[2025.10.30-10.38.37:554][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower_heliophila_medium_LOD1_Auto8
+[2025.10.30-10.38.37:554][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_heliophila_medium_LOD1_Au2E4C97654A227CC41416178370CB5A2E.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/flower_heliophila_medium_LOD1_Auto8.uasset'
+[2025.10.30-10.38.37:556][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/flower_heliophila_medium_LOD2] ([1] browsable assets)...
+[2025.10.30-10.38.37:556][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower_heliophila_medium_LOD2]
+[2025.10.30-10.38.37:572][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower_heliophila_medium_LOD2_Auto8
+[2025.10.30-10.38.37:572][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_heliophila_medium_LOD2_Au01A1007C4A2E4FF683C16D9B5FC1AB94.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/flower_heliophila_medium_LOD2_Auto8.uasset'
+[2025.10.30-10.38.37:574][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/textures/flower_ursinia_arm_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:574][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/textures/flower_ursinia_arm_1k]
+[2025.10.30-10.38.37:576][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/textures/flower_ursinia_arm_1k_Auto8
+[2025.10.30-10.38.37:576][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_ursinia_arm_1k_Auto8DCB93C4043063544E294ABB8C9181299.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/textures/flower_ursinia_arm_1k_Auto8.uasset'
+[2025.10.30-10.38.37:578][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/textures/flower_ursinia_diff_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:578][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/textures/flower_ursinia_diff_1k]
+[2025.10.30-10.38.37:581][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/textures/flower_ursinia_diff_1k_Auto8
+[2025.10.30-10.38.37:581][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_ursinia_diff_1k_Auto87E9DFFF442B11462AE2B1784CB31906B.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/textures/flower_ursinia_diff_1k_Auto8.uasset'
+[2025.10.30-10.38.37:585][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/textures/flower_ursinia_alpha_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:585][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/textures/flower_ursinia_alpha_1k]
+[2025.10.30-10.38.37:589][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/textures/flower_ursinia_alpha_1k_Auto8
+[2025.10.30-10.38.37:589][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_ursinia_alpha_1k_Auto8E8EB248B423B523A7A4D64A3FA7B4E6E.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/textures/flower_ursinia_alpha_1k_Auto8.uasset'
+[2025.10.30-10.38.37:591][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/textures/flower_ursinia_ao_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:591][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/textures/flower_ursinia_ao_1k]
+[2025.10.30-10.38.37:593][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/textures/flower_ursinia_ao_1k_Auto8
+[2025.10.30-10.38.37:593][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_ursinia_ao_1k_Auto839A2038D4A7F639C973021AA57FDA424.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/textures/flower_ursinia_ao_1k_Auto8.uasset'
+[2025.10.30-10.38.37:595][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/textures/flower_ursinia_disp_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:595][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/textures/flower_ursinia_disp_1k]
+[2025.10.30-10.38.37:599][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/textures/flower_ursinia_disp_1k_Auto8
+[2025.10.30-10.38.37:599][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_ursinia_disp_1k_Auto8B24B692A4914B8842BE352B3A04B3054.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/textures/flower_ursinia_disp_1k_Auto8.uasset'
+[2025.10.30-10.38.37:601][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/textures/flower_ursinia_mask_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:601][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/textures/flower_ursinia_mask_1k]
+[2025.10.30-10.38.37:610][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/textures/flower_ursinia_mask_1k_Auto8
+[2025.10.30-10.38.37:610][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_ursinia_mask_1k_Auto8E7B7423145F04482CD5112804759EE71.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/textures/flower_ursinia_mask_1k_Auto8.uasset'
+[2025.10.30-10.38.37:612][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/textures/flower_ursinia_rough_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:612][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/textures/flower_ursinia_rough_1k]
+[2025.10.30-10.38.37:615][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/textures/flower_ursinia_rough_1k_Auto8
+[2025.10.30-10.38.37:615][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_ursinia_rough_1k_Auto8B8B8ADFA49DD681F94DDACB255DF9BE0.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/textures/flower_ursinia_rough_1k_Auto8.uasset'
+[2025.10.30-10.38.37:617][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/textures/flower_ursinia_nor_gl_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:617][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/textures/flower_ursinia_nor_gl_1k]
+[2025.10.30-10.38.37:627][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/textures/flower_ursinia_nor_gl_1k_Auto8
+[2025.10.30-10.38.37:627][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_ursinia_nor_gl_1k_Auto83105431342122D84DA74299E4DAC7E63.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/textures/flower_ursinia_nor_gl_1k_Auto8.uasset'
+[2025.10.30-10.38.37:628][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/textures/street_rat_ao_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:628][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/textures/street_rat_ao_1k]
+[2025.10.30-10.38.37:630][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/textures/street_rat_ao_1k_Auto8
+[2025.10.30-10.38.37:630][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/street_rat_ao_1k_Auto82541EBA749677263B36056B3CA5F59B2.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/textures/street_rat_ao_1k_Auto8.uasset'
+[2025.10.30-10.38.37:632][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/textures/street_rat_height_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:632][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/textures/street_rat_height_1k]
+[2025.10.30-10.38.37:636][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/textures/street_rat_height_1k_Auto8
+[2025.10.30-10.38.37:636][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/street_rat_height_1k_Auto8BF7D1E2942916DEE713A1B80918BD470.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/textures/street_rat_height_1k_Auto8.uasset'
+[2025.10.30-10.38.37:637][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/textures/street_rat_nor_gl_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:638][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/textures/street_rat_nor_gl_1k]
+[2025.10.30-10.38.37:647][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/textures/street_rat_nor_gl_1k_Auto8
+[2025.10.30-10.38.37:649][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/street_rat_nor_gl_1k_Auto893C29BEB4D650968DA0DEDBF8D45F7C5.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/textures/street_rat_nor_gl_1k_Auto8.uasset'
+[2025.10.30-10.38.37:650][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/textures/street_rat_arm_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:651][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/textures/street_rat_arm_1k]
+[2025.10.30-10.38.37:653][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/textures/street_rat_arm_1k_Auto8
+[2025.10.30-10.38.37:653][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/street_rat_arm_1k_Auto83F2A87F74179F4D47BD1DEAC1349910D.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/textures/street_rat_arm_1k_Auto8.uasset'
+[2025.10.30-10.38.37:655][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/textures/street_rat_diff_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:655][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/textures/street_rat_diff_1k]
+[2025.10.30-10.38.37:657][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/textures/street_rat_diff_1k_Auto8
+[2025.10.30-10.38.37:657][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/street_rat_diff_1k_Auto85594AB34424EF1059E32F392FEB8DF6B.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/textures/street_rat_diff_1k_Auto8.uasset'
+[2025.10.30-10.38.37:659][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/textures/street_rat_rough_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:659][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/textures/street_rat_rough_1k]
+[2025.10.30-10.38.37:663][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/textures/street_rat_rough_1k_Auto8
+[2025.10.30-10.38.37:663][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/street_rat_rough_1k_Auto8B215F6304ED84C192F00E691958FB1C9.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/textures/street_rat_rough_1k_Auto8.uasset'
+[2025.10.30-10.38.37:665][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/street_rat_hair] ([1] browsable assets)...
+[2025.10.30-10.38.37:665][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/street_rat_hair]
+[2025.10.30-10.38.37:669][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/street_rat_hair_Auto8
+[2025.10.30-10.38.37:669][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/street_rat_hair_Auto88E282A294666DC7E5E91B989224C4B14.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/street_rat_hair_Auto8.uasset'
+[2025.10.30-10.38.37:671][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/street_rat_diff_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:671][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/street_rat_diff_1k]
+[2025.10.30-10.38.37:676][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/street_rat_diff_1k_Auto8
+[2025.10.30-10.38.37:677][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/street_rat_diff_1k_Auto810EE80DF49233273D64E62A3AC0E5003.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/street_rat_diff_1k_Auto8.uasset'
+[2025.10.30-10.38.37:678][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/street_rat_nor_gl_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:678][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/street_rat_nor_gl_1k]
+[2025.10.30-10.38.37:687][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/street_rat_nor_gl_1k_Auto8
+[2025.10.30-10.38.37:687][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/street_rat_nor_gl_1k_Auto8F28380FA4232D6880E3093B0464AB87A.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/street_rat_nor_gl_1k_Auto8.uasset'
+[2025.10.30-10.38.37:688][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/street_rat_rough_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:688][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/street_rat_rough_1k]
+[2025.10.30-10.38.37:693][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/street_rat_rough_1k_Auto8
+[2025.10.30-10.38.37:693][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/street_rat_rough_1k_Auto8FCCAE7B04F350F1E26C58A92AD1A8EC2.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/street_rat_rough_1k_Auto8.uasset'
+[2025.10.30-10.38.37:695][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/street_rat] ([1] browsable assets)...
+[2025.10.30-10.38.37:695][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/street_rat]
+[2025.10.30-10.38.37:695][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/street_rat" FILE="C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/street_rat_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2025.10.30-10.38.37:701][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/street_rat_Auto8
+[2025.10.30-10.38.37:701][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/street_rat_Auto8AFC35F7F4A9D529E130DD8A5C632846F.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/street_rat_Auto8.uasset'
+[2025.10.30-10.38.37:702][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/street_rat_1k] ([1] browsable assets)...
+[2025.10.30-10.38.37:703][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/street_rat_1k]
+[2025.10.30-10.38.37:703][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/street_rat_1k" FILE="C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/street_rat_1k_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2025.10.30-10.38.37:733][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/street_rat_1k_Auto8
+[2025.10.30-10.38.37:734][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/street_rat_1k_Auto81EFF57BE42DCF7B94CBB93888BE7AD19.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/street_rat_1k_Auto8.uasset'
+[2025.10.30-10.38.37:735][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/flower_ursinia] ([1] browsable assets)...
+[2025.10.30-10.38.37:735][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower_ursinia]
+[2025.10.30-10.38.37:735][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/flower_ursinia" FILE="C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/flower_ursinia_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2025.10.30-10.38.37:740][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower_ursinia_Auto8
+[2025.10.30-10.38.37:740][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_ursinia_Auto8D849BF22427E88473AA303BCAAD57D36.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/flower_ursinia_Auto8.uasset'
+[2025.10.30-10.38.37:742][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/flower_ursinia_e_LOD0] ([1] browsable assets)...
+[2025.10.30-10.38.37:742][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower_ursinia_e_LOD0]
+[2025.10.30-10.38.37:747][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower_ursinia_e_LOD0_Auto8
+[2025.10.30-10.38.37:747][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_ursinia_e_LOD0_Auto80A37D87E43B96E22146CD5BDE1CF4358.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/flower_ursinia_e_LOD0_Auto8.uasset'
+[2025.10.30-10.38.37:749][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/flower_ursinia_d_LOD0] ([1] browsable assets)...
+[2025.10.30-10.38.37:749][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower_ursinia_d_LOD0]
+[2025.10.30-10.38.37:755][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower_ursinia_d_LOD0_Auto8
+[2025.10.30-10.38.37:755][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_ursinia_d_LOD0_Auto8ECD4F73F4E6F25280DE86EBC4B03E524.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/flower_ursinia_d_LOD0_Auto8.uasset'
+[2025.10.30-10.38.37:757][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/flower_ursinia_a_LOD0] ([1] browsable assets)...
+[2025.10.30-10.38.37:757][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower_ursinia_a_LOD0]
+[2025.10.30-10.38.37:769][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower_ursinia_a_LOD0_Auto8
+[2025.10.30-10.38.37:769][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_ursinia_a_LOD0_Auto8FE2DC99E48971819B55FA4802CD267F1.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/flower_ursinia_a_LOD0_Auto8.uasset'
+[2025.10.30-10.38.37:770][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/flower_ursinia_b_LOD0] ([1] browsable assets)...
+[2025.10.30-10.38.37:771][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower_ursinia_b_LOD0]
+[2025.10.30-10.38.37:778][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower_ursinia_b_LOD0_Auto8
+[2025.10.30-10.38.37:778][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_ursinia_b_LOD0_Auto84734F1C04B52D0D259F17984C6B6DF79.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/flower_ursinia_b_LOD0_Auto8.uasset'
+[2025.10.30-10.38.37:779][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/flower_ursinia_c_LOD0] ([1] browsable assets)...
+[2025.10.30-10.38.37:780][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower_ursinia_c_LOD0]
+[2025.10.30-10.38.37:787][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower_ursinia_c_LOD0_Auto8
+[2025.10.30-10.38.37:787][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/flower_ursinia_c_LOD0_Auto83C4713F24D79218680D940B1404DA8E2.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/flower_ursinia_c_LOD0_Auto8.uasset'
+[2025.10.30-10.38.37:788][277]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tree_small_02_branches] ([1] browsable assets)...
+[2025.10.30-10.38.37:946][277]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tree_small_02_branches.tree_small_02_branches]
+[2025.10.30-10.38.37:948][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/tree_small_02_branches]
+[2025.10.30-10.38.37:967][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/tree_small_02_branches_Auto8
+[2025.10.30-10.38.37:967][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/tree_small_02_branches_Auto8A607768248A053E80F38DF91B71F8C9E.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/tree_small_02_branches_Auto8.uasset'
+[2025.10.30-10.38.37:970][277]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tree_small_02_leaves] ([1] browsable assets)...
+[2025.10.30-10.38.37:998][277]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tree_small_02_leaves.tree_small_02_leaves]
+[2025.10.30-10.38.37:998][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/tree_small_02_leaves]
+[2025.10.30-10.38.38:006][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/tree_small_02_leaves_Auto8
+[2025.10.30-10.38.38:006][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/tree_small_02_leaves_Auto8709F3CEC4D3754F3A4AABFB8CEB0D52C.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/tree_small_02_leaves_Auto8.uasset'
+[2025.10.30-10.38.38:008][277]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tree_small_02_trunk] ([1] browsable assets)...
+[2025.10.30-10.38.38:034][277]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tree_small_02_trunk.tree_small_02_trunk]
+[2025.10.30-10.38.38:034][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/tree_small_02_trunk]
+[2025.10.30-10.38.38:043][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/tree_small_02_trunk_Auto8
+[2025.10.30-10.38.38:043][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/tree_small_02_trunk_Auto82FE04C3F4DA44F38A52AE798A8735046.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/tree_small_02_trunk_Auto8.uasset'
+[2025.10.30-10.38.38:045][277]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tree_small_02_1k] ([1] browsable assets)...
+[2025.10.30-10.38.38:113][277]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/tree_small_02_1k.tree_small_02_1k]
+[2025.10.30-10.38.38:113][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/tree_small_02_1k]
+[2025.10.30-10.38.39:050][277]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/tree_small_02_1k_Auto8
+[2025.10.30-10.38.39:050][277]LogSavePackage: Moving 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/tree_small_02_1k_Auto8D545A4BE45A8850D71413EAEFDD9F9F1.tmp' to 'C:/Users/2501629/Documents/GitHub/Mishkat/MishkatZahra_2501629 5.5/Saved/Autosaves/Game/tree_small_02_1k_Auto8.uasset'
+[2025.10.30-10.38.39:052][277]LogFileHelpers: Auto-saving content packages took 1.977
+[2025.10.30-10.38.40:775][283]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 6144.995117
+[2025.10.30-10.38.41:771][286]LogEOSSDK: Warning: LogHttp: 00000B7E34239000: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.10.30-10.38.41:772][286]LogEOSSDK: Warning: LogHttp: 00000B7E34239000: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2025.10.30-10.38.41:772][286]LogEOSSDK: Warning: LogHttp: 00000B7E34239000: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.10.30-10.38.41:772][287]LogEOSSDK: Warning: LogHttp: 00000B7E34239000: libcurl info message cache 1 (  Trying 34.230.135.80:443...)
+[2025.10.30-10.38.41:772][287]LogEOSSDK: Warning: LogHttp: 00000B7E34239000: libcurl info message cache 2 (Connected to api.epicgames.dev (34.230.135.80) port 443)
+[2025.10.30-10.38.41:772][287]LogEOSSDK: Warning: LogHttp: 00000B7E34239000: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.10.30-10.38.41:772][287]LogEOSSDK: Warning: LogHttp: 00000B7E34239000: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.10.30-10.38.41:772][287]LogEOSSDK: Warning: LogHttp: 00000B7E34239000: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.10.30-10.38.41:772][287]LogEOSSDK: Warning: LogHttp: 00000B7E34239000: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.10.30-10.38.41:772][287]LogEOSSDK: Warning: LogHttp: 00000B7E34239000: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.10.30-10.38.41:772][287]LogEOSSDK: Warning: LogHttp: 00000B7E34239000: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2025.10.30-10.38.41:773][287]LogEOSSDK: Warning: LogHttp: 00000B7E34239000: libcurl info message cache 9 (SSL certificate problem: unable to get local issuer certificate)
+[2025.10.30-10.38.41:773][287]LogEOSSDK: Warning: LogHttp: 00000B7E34239000: libcurl info message cache 10 (Closing connection)
+[2025.10.30-10.38.41:773][287]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2025.10.30-10.38.41:773][287]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2025.10.30-10.38.42:107][287]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 13.332682 seconds
+[2025.10.30-10.38.42:772][289]LogEOSSDK: Warning: LogEOSAnalytics: Unable to get the client auth token. Last result: EOS_NoConnection.
+[2025.10.30-10.38.55:426][327]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 6159.646484
+[2025.10.30-10.38.56:426][330]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.10.30-10.38.56:426][330]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2025.10.30-10.38.56:426][330]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.10.30-10.38.56:426][330]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: libcurl info message cache 1 (  Trying 34.230.135.80:443...)
+[2025.10.30-10.38.56:426][331]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: libcurl info message cache 2 (Connected to api.epicgames.dev (34.230.135.80) port 443)
+[2025.10.30-10.38.56:427][331]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.10.30-10.38.56:427][331]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.10.30-10.38.56:427][331]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.10.30-10.38.56:427][331]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.10.30-10.38.56:427][331]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.10.30-10.38.56:427][331]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2025.10.30-10.38.56:427][331]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: libcurl info message cache 9 (SSL certificate problem: unable to get local issuer certificate)
+[2025.10.30-10.38.56:427][331]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: libcurl info message cache 10 (Closing connection)
+[2025.10.30-10.38.56:427][331]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2025.10.30-10.38.56:427][331]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2025.10.30-10.38.56:758][331]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 2.568377 seconds
+[2025.10.30-10.38.59:093][338]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 6163.313965
+[2025.10.30-10.39.00:093][341]LogEOSSDK: Warning: LogHttp: 00000B7E3423EA00: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.10.30-10.39.00:093][341]LogEOSSDK: Warning: LogHttp: 00000B7E3423EA00: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2025.10.30-10.39.00:093][342]LogEOSSDK: Warning: LogHttp: 00000B7E3423EA00: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.10.30-10.39.00:093][342]LogEOSSDK: Warning: LogHttp: 00000B7E3423EA00: libcurl info message cache 1 (  Trying 34.230.135.80:443...)
+[2025.10.30-10.39.00:093][342]LogEOSSDK: Warning: LogHttp: 00000B7E3423EA00: libcurl info message cache 2 (Connected to api.epicgames.dev (34.230.135.80) port 443)
+[2025.10.30-10.39.00:094][342]LogEOSSDK: Warning: LogHttp: 00000B7E3423EA00: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.10.30-10.39.00:094][342]LogEOSSDK: Warning: LogHttp: 00000B7E3423EA00: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.10.30-10.39.00:094][342]LogEOSSDK: Warning: LogHttp: 00000B7E3423EA00: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.10.30-10.39.00:094][342]LogEOSSDK: Warning: LogHttp: 00000B7E3423EA00: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.10.30-10.39.00:094][342]LogEOSSDK: Warning: LogHttp: 00000B7E3423EA00: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.10.30-10.39.00:094][342]LogEOSSDK: Warning: LogHttp: 00000B7E3423EA00: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2025.10.30-10.39.00:094][342]LogEOSSDK: Warning: LogHttp: 00000B7E3423EA00: libcurl info message cache 9 (SSL certificate problem: unable to get local issuer certificate)
+[2025.10.30-10.39.00:094][342]LogEOSSDK: Warning: LogHttp: 00000B7E3423EA00: libcurl info message cache 10 (Closing connection)
+[2025.10.30-10.39.00:094][342]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2025.10.30-10.39.00:095][342]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2025.10.30-10.39.00:425][342]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 6.988617 seconds
+[2025.10.30-10.39.07:094][362]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 6171.315430
+[2025.10.30-10.39.08:094][365]LogEOSSDK: Warning: LogHttp: 00000B7E3423E400: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.10.30-10.39.08:094][366]LogEOSSDK: Warning: LogHttp: 00000B7E3423E400: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2025.10.30-10.39.08:094][366]LogEOSSDK: Warning: LogHttp: 00000B7E3423E400: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.10.30-10.39.08:094][366]LogEOSSDK: Warning: LogHttp: 00000B7E3423E400: libcurl info message cache 1 (  Trying 34.230.135.80:443...)
+[2025.10.30-10.39.08:094][366]LogEOSSDK: Warning: LogHttp: 00000B7E3423E400: libcurl info message cache 2 (Connected to api.epicgames.dev (34.230.135.80) port 443)
+[2025.10.30-10.39.08:094][366]LogEOSSDK: Warning: LogHttp: 00000B7E3423E400: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.10.30-10.39.08:095][366]LogEOSSDK: Warning: LogHttp: 00000B7E3423E400: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.10.30-10.39.08:095][366]LogEOSSDK: Warning: LogHttp: 00000B7E3423E400: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.10.30-10.39.08:095][366]LogEOSSDK: Warning: LogHttp: 00000B7E3423E400: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.10.30-10.39.08:095][366]LogEOSSDK: Warning: LogHttp: 00000B7E3423E400: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.10.30-10.39.08:095][366]LogEOSSDK: Warning: LogHttp: 00000B7E3423E400: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2025.10.30-10.39.08:095][366]LogEOSSDK: Warning: LogHttp: 00000B7E3423E400: libcurl info message cache 9 (SSL certificate problem: unable to get local issuer certificate)
+[2025.10.30-10.39.08:095][366]LogEOSSDK: Warning: LogHttp: 00000B7E3423E400: libcurl info message cache 10 (Closing connection)
+[2025.10.30-10.39.08:095][366]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2025.10.30-10.39.08:096][366]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2025.10.30-10.39.08:427][366]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 11.237160 seconds
+[2025.10.30-10.39.10:429][372]LogShaderCompilers: Display: ================================================
+[2025.10.30-10.39.10:429][372]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.30-10.39.10:429][372]LogShaderCompilers: Display: Total job queries 13,251, among them cache hits 1,173 (8.85%), DDC hits 0 (0.00%), Duplicates 2,719 (20.52%)
+[2025.10.30-10.39.10:429][372]LogShaderCompilers: Display: Tracking 9,359 distinct input hashes that result in 8,645 distinct outputs (92.37%)
+[2025.10.30-10.39.10:429][372]LogShaderCompilers: Display: RAM used: 6.46 MiB of 1.60 GiB budget. Usage: 0.39%
+[2025.10.30-10.39.10:429][372]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.30-10.39.10:429][372]LogShaderCompilers: Display: Shaders Compiled: 9,359
+[2025.10.30-10.39.10:429][372]LogShaderCompilers: Display: Jobs assigned 9,359, completed 9,359 (100%)
+[2025.10.30-10.39.10:429][372]LogShaderCompilers: Display: Average time worker was idle: 39.46 s
+[2025.10.30-10.39.10:429][372]LogShaderCompilers: Display: Time job spent in pending queue: average 316.63 s, longest 676.04 s
+[2025.10.30-10.39.10:429][372]LogShaderCompilers: Display: Job execution time: average 6.85 s, max 79.83 s
+[2025.10.30-10.39.10:429][372]LogShaderCompilers: Display: Job life time (pending + execution): average 323.47 s, max 676.60
+[2025.10.30-10.39.10:429][372]LogShaderCompilers: Display: Shader code size: average 14.032 KiB, min 1.16 KiB, max 330.166 KiB
+[2025.10.30-10.39.10:430][372]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 887.14 s
+[2025.10.30-10.39.10:430][372]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.10.30-10.39.10:430][372]LogShaderCompilers: Display: Jobs were issued in 1,364 batches (only local compilation was used), average 6.86 jobs/batch
+[2025.10.30-10.39.10:430][372]LogShaderCompilers: Display: Average processing rate: 10.55 jobs/sec
+[2025.10.30-10.39.10:430][372]LogShaderCompilers: Display: Total thread time: 6,708.455 s
+[2025.10.30-10.39.10:430][372]LogShaderCompilers: Display: Total thread preprocess time: 175.319 s
+[2025.10.30-10.39.10:430][372]LogShaderCompilers: Display: Percentage time preprocessing: 2.61%
+[2025.10.30-10.39.10:430][372]LogShaderCompilers: Display: Effective parallelization: 7.56 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.10.30-10.39.10:430][372]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.30-10.39.10:430][372]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 24.19 sec, max 74.28 sec, min 1.65 sec)
+[2025.10.30-10.39.10:430][372]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 17.15 sec, max 17.15 sec, min 17.15 sec)
+[2025.10.30-10.39.10:430][372]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 10.25 sec, max 11.38 sec, min 6.68 sec)
+[2025.10.30-10.39.10:430][372]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 4.70 sec, max 9.64 sec, min 1.67 sec)
+[2025.10.30-10.39.10:430][372]LogShaderCompilers: Display:                                        FCloudRenderViewPS010 (compiled    1 times, average 4.38 sec, max 4.38 sec, min 4.38 sec)
+[2025.10.30-10.39.10:431][372]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.30-10.39.10:431][372]LogShaderCompilers: Display:                                             FDeferredLightPS - 12.00% of total time (compiled  454 times, average 1.77 sec, max 7.20 sec, min 1.27 sec)
+[2025.10.30-10.39.10:431][372]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 9.81% of total time (compiled  260 times, average 2.53 sec, max 5.84 sec, min 0.00 sec)
+[2025.10.30-10.39.10:431][372]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 9.73% of total time (compiled   27 times, average 24.19 sec, max 74.28 sec, min 1.65 sec)
+[2025.10.30-10.39.10:431][372]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 5.15% of total time (compiled  480 times, average 0.72 sec, max 1.22 sec, min 0.27 sec)
+[2025.10.30-10.39.10:431][372]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 4.42% of total time (compiled   68 times, average 4.36 sec, max 6.36 sec, min 2.84 sec)
+[2025.10.30-10.39.10:431][372]LogShaderCompilers: Display: === Material stats ===
+[2025.10.30-10.39.10:431][372]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.30-10.39.10:431][372]LogShaderCompilers: Display: Materials Translated:    508
+[2025.10.30-10.39.10:431][372]LogShaderCompilers: Display: Material Total Translate Time: 0.46 s
+[2025.10.30-10.39.10:431][372]LogShaderCompilers: Display: Material Translation Only: 0.16 s (34%)
+[2025.10.30-10.39.10:431][372]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.10.30-10.39.10:431][372]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.10.30-10.39.10:431][372]LogShaderCompilers: Display: ================================================
+[2025.10.30-10.39.16:762][391]LogHttp: Warning: 00000B7CB1085B00: request failed, libcurl error: 35 (SSL connect error)
+[2025.10.30-10.39.16:762][391]LogHttp: Warning: 00000B7CB1085B00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2025.10.30-10.39.16:762][391]LogHttp: Warning: 00000B7CB1085B00: libcurl info message cache 1 (  Trying 44.193.44.180:443...)
+[2025.10.30-10.39.16:762][391]LogHttp: Warning: 00000B7CB1085B00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (44.193.44.180) port 443)
+[2025.10.30-10.39.16:762][391]LogHttp: Warning: 00000B7CB1085B00: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.10.30-10.39.16:762][392]LogHttp: Warning: 00000B7CB1085B00: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.10.30-10.39.16:762][392]LogHttp: Warning: 00000B7CB1085B00: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2025.10.30-10.39.16:762][392]LogHttp: Warning: 00000B7CB1085B00: libcurl info message cache 6 (OpenSSL SSL_connect: Connection was reset in connection to datarouter.ol.epicgames.com:443 )
+[2025.10.30-10.39.16:762][392]LogHttp: Warning: 00000B7CB1085B00: libcurl info message cache 7 (Closing connection)
+[2025.10.30-10.39.16:762][392]LogHttp: Warning: 00000B7CB1085B00: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2025.10.30-10.39.16:762][392]LogHttp: Warning: 00000B7CB1085B00: libcurl info message cache 9 (Recv failure: Connection was reset)
+[2025.10.30-10.39.16:762][392]LogEOSSDK: Warning: LogHttp: 00000B7E34236000: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BCC8BC63A-4A64-95C6-C8D9-F6A3F2307800%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.10.30-10.39.16:763][392]LogEOSSDK: Warning: LogHttp: 00000B7E34236000: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2025.10.30-10.39.16:763][392]LogEOSSDK: Warning: LogHttp: 00000B7E34236000: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2025.10.30-10.39.16:763][392]LogEOSSDK: Warning: LogHttp: 00000B7E34236000: libcurl info message cache 1 (  Trying 3.222.118.191:443...)
+[2025.10.30-10.39.16:763][392]LogEOSSDK: Warning: LogHttp: 00000B7E34236000: libcurl info message cache 2 (Connected to api.epicgames.dev (3.222.118.191) port 443)
+[2025.10.30-10.39.16:763][392]LogEOSSDK: Warning: LogHttp: 00000B7E34236000: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.10.30-10.39.16:763][392]LogEOSSDK: Warning: LogHttp: 00000B7E34236000: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.10.30-10.39.16:763][392]LogEOSSDK: Warning: LogHttp: 00000B7E34236000: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.10.30-10.39.16:763][392]LogEOSSDK: Warning: LogHttp: 00000B7E34236000: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.10.30-10.39.16:763][392]LogEOSSDK: Warning: LogHttp: 00000B7E34236000: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.10.30-10.39.16:763][392]LogEOSSDK: Warning: LogHttp: 00000B7E34236000: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2025.10.30-10.39.16:763][392]LogEOSSDK: Warning: LogHttp: 00000B7E34236000: libcurl info message cache 9 (SSL certificate problem: unable to get local issuer certificate)
+[2025.10.30-10.39.16:763][392]LogEOSSDK: Warning: LogHttp: 00000B7E34236000: libcurl info message cache 10 (Closing connection)
+[2025.10.30-10.39.17:096][392]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BCC8BC63A-4A64-95C6-C8D9-F6A3F2307800%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.10.30-10.39.19:429][399]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 6183.650391
+[2025.10.30-10.39.20:429][402]LogEOSSDK: Warning: LogHttp: 00000B7E34235400: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.10.30-10.39.20:429][402]LogEOSSDK: Warning: LogHttp: 00000B7E34235400: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2025.10.30-10.39.20:429][402]LogEOSSDK: Warning: LogHttp: 00000B7E34235400: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.10.30-10.39.20:429][402]LogEOSSDK: Warning: LogHttp: 00000B7E34235400: libcurl info message cache 1 (  Trying 3.222.118.191:443...)
+[2025.10.30-10.39.20:430][403]LogEOSSDK: Warning: LogHttp: 00000B7E34235400: libcurl info message cache 2 (Connected to api.epicgames.dev (3.222.118.191) port 443)
+[2025.10.30-10.39.20:430][403]LogEOSSDK: Warning: LogHttp: 00000B7E34235400: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.10.30-10.39.20:430][403]LogEOSSDK: Warning: LogHttp: 00000B7E34235400: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.10.30-10.39.20:430][403]LogEOSSDK: Warning: LogHttp: 00000B7E34235400: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.10.30-10.39.20:430][403]LogEOSSDK: Warning: LogHttp: 00000B7E34235400: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.10.30-10.39.20:430][403]LogEOSSDK: Warning: LogHttp: 00000B7E34235400: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.10.30-10.39.20:430][403]LogEOSSDK: Warning: LogHttp: 00000B7E34235400: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2025.10.30-10.39.20:430][403]LogEOSSDK: Warning: LogHttp: 00000B7E34235400: libcurl info message cache 9 (SSL certificate problem: unable to get local issuer certificate)
+[2025.10.30-10.39.20:430][403]LogEOSSDK: Warning: LogHttp: 00000B7E34235400: libcurl info message cache 10 (Closing connection)
+[2025.10.30-10.39.20:431][403]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2025.10.30-10.39.20:431][403]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2025.10.30-10.39.20:763][403]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 3.624439 seconds
+[2025.10.30-10.39.24:096][413]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 6188.317383
+[2025.10.30-10.39.25:095][416]LogEOSSDK: Warning: LogHttp: 00000B7E34236600: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.10.30-10.39.25:095][416]LogEOSSDK: Warning: LogHttp: 00000B7E34236600: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2025.10.30-10.39.25:095][416]LogEOSSDK: Warning: LogHttp: 00000B7E34236600: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.10.30-10.39.25:095][416]LogEOSSDK: Warning: LogHttp: 00000B7E34236600: libcurl info message cache 1 (  Trying 3.222.118.191:443...)
+[2025.10.30-10.39.25:095][417]LogEOSSDK: Warning: LogHttp: 00000B7E34236600: libcurl info message cache 2 (Connected to api.epicgames.dev (3.222.118.191) port 443)
+[2025.10.30-10.39.25:095][417]LogEOSSDK: Warning: LogHttp: 00000B7E34236600: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.10.30-10.39.25:095][417]LogEOSSDK: Warning: LogHttp: 00000B7E34236600: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.10.30-10.39.25:095][417]LogEOSSDK: Warning: LogHttp: 00000B7E34236600: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.10.30-10.39.25:095][417]LogEOSSDK: Warning: LogHttp: 00000B7E34236600: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.10.30-10.39.25:095][417]LogEOSSDK: Warning: LogHttp: 00000B7E34236600: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.10.30-10.39.25:095][417]LogEOSSDK: Warning: LogHttp: 00000B7E34236600: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2025.10.30-10.39.25:095][417]LogEOSSDK: Warning: LogHttp: 00000B7E34236600: libcurl info message cache 9 (SSL certificate problem: unable to get local issuer certificate)
+[2025.10.30-10.39.25:095][417]LogEOSSDK: Warning: LogHttp: 00000B7E34236600: libcurl info message cache 10 (Closing connection)
+[2025.10.30-10.39.25:095][417]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2025.10.30-10.39.25:095][417]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2025.10.30-10.39.25:430][417]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 5.568651 seconds
+[2025.10.30-10.39.30:763][433]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 6194.983887
+[2025.10.30-10.39.31:764][436]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.10.30-10.39.31:764][436]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2025.10.30-10.39.31:764][436]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.10.30-10.39.31:764][436]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: libcurl info message cache 1 (  Trying 3.222.118.191:443...)
+[2025.10.30-10.39.31:764][436]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: libcurl info message cache 2 (Connected to api.epicgames.dev (3.222.118.191) port 443)
+[2025.10.30-10.39.31:764][436]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.10.30-10.39.31:765][436]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.10.30-10.39.31:765][436]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.10.30-10.39.31:765][436]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.10.30-10.39.31:765][436]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.10.30-10.39.31:765][436]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2025.10.30-10.39.31:765][437]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: libcurl info message cache 9 (SSL certificate problem: unable to get local issuer certificate)
+[2025.10.30-10.39.31:765][437]LogEOSSDK: Warning: LogHttp: 00000B7E3423D200: libcurl info message cache 10 (Closing connection)
+[2025.10.30-10.39.31:765][437]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2025.10.30-10.39.31:765][437]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2025.10.30-10.39.32:097][437]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 8.323496 seconds
+[2025.10.30-10.39.32:764][439]LogEOSSDK: Warning: LogEOSAnalytics: Unable to get the client auth token. Last result: EOS_NoConnection.
+[2025.10.30-10.39.40:098][461]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 6204.319824
+[2025.10.30-10.39.41:097][464]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.10.30-10.39.41:097][465]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2025.10.30-10.39.41:097][465]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.10.30-10.39.41:097][465]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: libcurl info message cache 1 (  Trying 3.222.118.191:443...)
+[2025.10.30-10.39.41:097][465]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: libcurl info message cache 2 (Connected to api.epicgames.dev (3.222.118.191) port 443)
+[2025.10.30-10.39.41:097][465]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.10.30-10.39.41:097][465]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.10.30-10.39.41:097][465]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.10.30-10.39.41:097][465]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.10.30-10.39.41:099][465]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.10.30-10.39.41:099][465]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2025.10.30-10.39.41:099][465]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: libcurl info message cache 9 (SSL certificate problem: unable to get local issuer certificate)
+[2025.10.30-10.39.41:099][465]LogEOSSDK: Warning: LogHttp: 00000B7E3423D800: libcurl info message cache 10 (Closing connection)
+[2025.10.30-10.39.41:099][465]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2025.10.30-10.39.41:099][465]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2025.10.30-10.39.41:432][465]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 3.245155 seconds
+[2025.10.30-10.39.44:432][474]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 6208.654297
+[2025.10.30-10.39.45:432][477]LogEOSSDK: Warning: LogHttp: 00000B7E3423C000: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.10.30-10.39.45:432][477]LogEOSSDK: Warning: LogHttp: 00000B7E3423C000: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2025.10.30-10.39.45:432][478]LogEOSSDK: Warning: LogHttp: 00000B7E3423C000: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.10.30-10.39.45:432][478]LogEOSSDK: Warning: LogHttp: 00000B7E3423C000: libcurl info message cache 1 (  Trying 3.222.118.191:443...)
+[2025.10.30-10.39.45:432][478]LogEOSSDK: Warning: LogHttp: 00000B7E3423C000: libcurl info message cache 2 (Connected to api.epicgames.dev (3.222.118.191) port 443)
+[2025.10.30-10.39.45:433][478]LogEOSSDK: Warning: LogHttp: 00000B7E3423C000: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.10.30-10.39.45:433][478]LogEOSSDK: Warning: LogHttp: 00000B7E3423C000: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.10.30-10.39.45:433][478]LogEOSSDK: Warning: LogHttp: 00000B7E3423C000: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.10.30-10.39.45:433][478]LogEOSSDK: Warning: LogHttp: 00000B7E3423C000: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.10.30-10.39.45:433][478]LogEOSSDK: Warning: LogHttp: 00000B7E3423C000: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.10.30-10.39.45:433][478]LogEOSSDK: Warning: LogHttp: 00000B7E3423C000: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2025.10.30-10.39.45:433][478]LogEOSSDK: Warning: LogHttp: 00000B7E3423C000: libcurl info message cache 9 (SSL certificate problem: unable to get local issuer certificate)
+[2025.10.30-10.39.45:433][478]LogEOSSDK: Warning: LogHttp: 00000B7E3423C000: libcurl info message cache 10 (Closing connection)
+[2025.10.30-10.39.45:433][478]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2025.10.30-10.39.45:434][478]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2025.10.30-10.39.45:766][478]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 5.519578 seconds
+[2025.10.30-10.39.51:099][494]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 6215.321289
+[2025.10.30-10.39.52:099][497]LogEOSSDK: Warning: LogHttp: 00000B7E34238400: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.10.30-10.39.52:099][498]LogEOSSDK: Warning: LogHttp: 00000B7E34238400: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2025.10.30-10.39.52:100][498]LogEOSSDK: Warning: LogHttp: 00000B7E34238400: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.10.30-10.39.52:100][498]LogEOSSDK: Warning: LogHttp: 00000B7E34238400: libcurl info message cache 1 (  Trying 3.222.118.191:443...)
+[2025.10.30-10.39.52:100][498]LogEOSSDK: Warning: LogHttp: 00000B7E34238400: libcurl info message cache 2 (Connected to api.epicgames.dev (3.222.118.191) port 443)
+[2025.10.30-10.39.52:100][498]LogEOSSDK: Warning: LogHttp: 00000B7E34238400: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.10.30-10.39.52:100][498]LogEOSSDK: Warning: LogHttp: 00000B7E34238400: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.10.30-10.39.52:100][498]LogEOSSDK: Warning: LogHttp: 00000B7E34238400: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.10.30-10.39.52:100][498]LogEOSSDK: Warning: LogHttp: 00000B7E34238400: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.10.30-10.39.52:100][498]LogEOSSDK: Warning: LogHttp: 00000B7E34238400: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.10.30-10.39.52:101][498]LogEOSSDK: Warning: LogHttp: 00000B7E34238400: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2025.10.30-10.39.52:101][498]LogEOSSDK: Warning: LogHttp: 00000B7E34238400: libcurl info message cache 9 (SSL certificate problem: unable to get local issuer certificate)
+[2025.10.30-10.39.52:101][498]LogEOSSDK: Warning: LogHttp: 00000B7E34238400: libcurl info message cache 10 (Closing connection)
+[2025.10.30-10.39.52:101][498]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2025.10.30-10.39.52:101][498]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2025.10.30-10.39.52:434][498]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 15.834467 seconds
