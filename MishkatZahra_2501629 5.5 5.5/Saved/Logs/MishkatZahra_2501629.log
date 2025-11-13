@@ -15246,3 +15246,87 @@ Sampler Limit: 32
 [2025.11.13-10.16.47:353][948]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
 [2025.11.13-10.16.47:353][948]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
 [2025.11.13-10.16.47:686][948]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 6.556597 seconds
+[2025.11.13-10.16.54:019][967]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 4374.017090
+[2025.11.13-10.16.55:020][970]LogEOSSDK: Warning: LogHttp: 00000A6657279600: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.13-10.16.55:020][970]LogEOSSDK: Warning: LogHttp: 00000A6657279600: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2025.11.13-10.16.55:020][970]LogEOSSDK: Warning: LogHttp: 00000A6657279600: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.11.13-10.16.55:020][970]LogEOSSDK: Warning: LogHttp: 00000A6657279600: libcurl info message cache 1 (  Trying 54.83.177.17:443...)
+[2025.11.13-10.16.55:020][970]LogEOSSDK: Warning: LogHttp: 00000A6657279600: libcurl info message cache 2 (Connected to api.epicgames.dev (54.83.177.17) port 443)
+[2025.11.13-10.16.55:020][970]LogEOSSDK: Warning: LogHttp: 00000A6657279600: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.11.13-10.16.55:020][970]LogEOSSDK: Warning: LogHttp: 00000A6657279600: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.11.13-10.16.55:020][970]LogEOSSDK: Warning: LogHttp: 00000A6657279600: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.11.13-10.16.55:020][970]LogEOSSDK: Warning: LogHttp: 00000A6657279600: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.11.13-10.16.55:020][970]LogEOSSDK: Warning: LogHttp: 00000A6657279600: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.11.13-10.16.55:020][970]LogEOSSDK: Warning: LogHttp: 00000A6657279600: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2025.11.13-10.16.55:020][971]LogEOSSDK: Warning: LogHttp: 00000A6657279600: libcurl info message cache 9 (SSL certificate problem: unable to get local issuer certificate)
+[2025.11.13-10.16.55:020][971]LogEOSSDK: Warning: LogHttp: 00000A6657279600: libcurl info message cache 10 (Closing connection)
+[2025.11.13-10.16.55:020][971]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2025.11.13-10.16.55:020][971]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2025.11.13-10.16.55:352][971]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 11.459579 seconds
+[2025.11.13-10.16.56:020][973]LogEOSSDK: Warning: LogEOSAnalytics: Unable to get the client auth token. Last result: EOS_NoConnection.
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display: ================================================
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display: Total job queries 11,802, among them cache hits 47 (0.40%), DDC hits 0 (0.00%), Duplicates 2,694 (22.83%)
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display: Tracking 9,061 distinct input hashes that result in 8,525 distinct outputs (94.08%)
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display: RAM used: 6.38 MiB of 819.20 MiB budget. Usage: 0.78%
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display: Shaders Compiled: 9,061
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display: Jobs assigned 9,061, completed 9,061 (100%)
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display: Average time worker was idle: 34.42 s
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display: Time job spent in pending queue: average 358.51 s, longest 748.41 s
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display: Job execution time: average 8.01 s, max 132.07 s
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display: Job life time (pending + execution): average 366.52 s, max 749.20
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display: Shader code size: average 14.23 KiB, min 1.16 KiB, max 330.166 KiB
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 924.73 s
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.26%
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display: Jobs were issued in 1,089 batches (only local compilation was used), average 8.32 jobs/batch
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display: Average processing rate: 9.80 jobs/sec
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display: Total thread time: 7,775.161 s
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display: Total thread preprocess time: 152.594 s
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display: Percentage time preprocessing: 1.96%
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display: Effective parallelization: 8.41 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 31.68 sec, max 101.31 sec, min 2.15 sec)
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 18.89 sec, max 18.89 sec, min 18.89 sec)
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 12.40 sec, max 13.82 sec, min 7.03 sec)
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    5 times, average 9.58 sec, max 16.18 sec, min 3.88 sec)
+[2025.11.13-10.16.58:350][980]LogShaderCompilers: Display:                                        FCloudRenderViewPS001 (compiled    1 times, average 9.55 sec, max 9.55 sec, min 9.55 sec)
+[2025.11.13-10.16.58:351][980]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.13-10.16.58:351][980]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.56% of total time (compiled  454 times, average 1.98 sec, max 3.03 sec, min 1.34 sec)
+[2025.11.13-10.16.58:351][980]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 11.00% of total time (compiled   27 times, average 31.68 sec, max 101.31 sec, min 2.15 sec)
+[2025.11.13-10.16.58:351][980]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 10.29% of total time (compiled  260 times, average 3.08 sec, max 9.09 sec, min 0.00 sec)
+[2025.11.13-10.16.58:351][980]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 7.45% of total time (compiled   68 times, average 8.52 sec, max 13.20 sec, min 5.20 sec)
+[2025.11.13-10.16.58:351][980]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 4.69% of total time (compiled  480 times, average 0.76 sec, max 8.02 sec, min 0.31 sec)
+[2025.11.13-10.16.58:351][980]LogShaderCompilers: Display: === Material stats ===
+[2025.11.13-10.16.58:351][980]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.13-10.16.58:351][980]LogShaderCompilers: Display: Materials Translated:    155
+[2025.11.13-10.16.58:351][980]LogShaderCompilers: Display: Material Total Translate Time: 0.84 s
+[2025.11.13-10.16.58:351][980]LogShaderCompilers: Display: Material Translation Only: 0.07 s (9%)
+[2025.11.13-10.16.58:351][980]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.11.13-10.16.58:351][980]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.11.13-10.16.58:351][980]LogShaderCompilers: Display: ================================================
+[2025.11.13-10.17.01:024][988]LogEOSSDK: Warning: LogHttp: 00000A6657273C00: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B4E69DF56-4D07-23BF-3D3E-209DB084D817%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.13-10.17.01:024][988]LogEOSSDK: Warning: LogHttp: 00000A6657273C00: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2025.11.13-10.17.01:024][988]LogEOSSDK: Warning: LogHttp: 00000A6657273C00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2025.11.13-10.17.01:024][988]LogEOSSDK: Warning: LogHttp: 00000A6657273C00: libcurl info message cache 1 (  Trying 75.101.208.125:443...)
+[2025.11.13-10.17.01:024][988]LogEOSSDK: Warning: LogHttp: 00000A6657273C00: libcurl info message cache 2 (Connected to api.epicgames.dev (75.101.208.125) port 443)
+[2025.11.13-10.17.01:024][988]LogEOSSDK: Warning: LogHttp: 00000A6657273C00: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.11.13-10.17.01:024][988]LogEOSSDK: Warning: LogHttp: 00000A6657273C00: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.11.13-10.17.01:024][988]LogEOSSDK: Warning: LogHttp: 00000A6657273C00: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.11.13-10.17.01:024][988]LogEOSSDK: Warning: LogHttp: 00000A6657273C00: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.11.13-10.17.01:024][988]LogEOSSDK: Warning: LogHttp: 00000A6657273C00: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.11.13-10.17.01:024][988]LogEOSSDK: Warning: LogHttp: 00000A6657273C00: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2025.11.13-10.17.01:024][988]LogEOSSDK: Warning: LogHttp: 00000A6657273C00: libcurl info message cache 9 (SSL certificate problem: unable to get local issuer certificate)
+[2025.11.13-10.17.01:024][989]LogEOSSDK: Warning: LogHttp: 00000A6657273C00: libcurl info message cache 10 (Closing connection)
+[2025.11.13-10.17.01:024][989]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B4E69DF56-4D07-23BF-3D3E-209DB084D817%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.11.13-10.17.01:354][989]LogHttp: Warning: 00000A66667AE700: request failed, libcurl error: 35 (SSL connect error)
+[2025.11.13-10.17.01:354][989]LogHttp: Warning: 00000A66667AE700: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2025.11.13-10.17.01:354][989]LogHttp: Warning: 00000A66667AE700: libcurl info message cache 1 (  Trying 44.196.61.141:443...)
+[2025.11.13-10.17.01:354][989]LogHttp: Warning: 00000A66667AE700: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (44.196.61.141) port 443)
+[2025.11.13-10.17.01:354][989]LogHttp: Warning: 00000A66667AE700: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.11.13-10.17.01:354][989]LogHttp: Warning: 00000A66667AE700: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.11.13-10.17.01:354][989]LogHttp: Warning: 00000A66667AE700: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2025.11.13-10.17.01:354][990]LogHttp: Warning: 00000A66667AE700: libcurl info message cache 6 (OpenSSL SSL_connect: Connection was reset in connection to datarouter.ol.epicgames.com:443 )
+[2025.11.13-10.17.01:354][990]LogHttp: Warning: 00000A66667AE700: libcurl info message cache 7 (Closing connection)
+[2025.11.13-10.17.01:354][990]LogHttp: Warning: 00000A66667AE700: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2025.11.13-10.17.01:354][990]LogHttp: Warning: 00000A66667AE700: libcurl info message cache 9 (Recv failure: Connection was reset)
