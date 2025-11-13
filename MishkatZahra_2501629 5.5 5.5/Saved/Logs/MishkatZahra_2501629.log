@@ -1266,3 +1266,6 @@ LogConfig: Set CVar [[r.DynamicRes.DynamicFrameTime:1]]
 [2025.11.13-08.51.08:811][  0]LogMaterial: Display: Missing cached shadermap for DefaultDeferredDecalMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 51772f1ea308ab0a6c9bcd63dbaf3c4868f06dc5), compiling. 
 [2025.11.13-08.51.08:875][  0]LogMaterial: Display: Missing cached shadermap for DefaultLightFunctionMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 2d8d8c3a789c20665dd7acc3dca917c503db7ff5), compiling. 
 [2025.11.13-08.51.12:619][  0]LogTurnkeySupport: Completed device detection: Code = 0
+[2025.11.13-08.52.20:979][  0]LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 58, format PCD3D_SM6) compile time exceeded threshold (64.603s)
+[2025.11.13-08.53.04:078][  0]LogDerivedDataCache: C:/Users/TEMP.AUSTD.003/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.13-08.54.26:868][  0]LogShaderCompilers: Display: FShaderCompileThreadRunnable::WriteNewTasks() took too long (0.467 seconds, threshold is 0.300 s), will parallelize next time.
